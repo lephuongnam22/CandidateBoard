@@ -1,0 +1,50 @@
+@import '@taiga-ui/core/styles/taiga-ui-local';
+
+:host {
+    display: block;
+}
+
+.board {
+    background-color: var(--tui-base-02);
+    height: auto;
+    margin:20px;
+    //grid-template-columns: auto auto auto auto;
+}
+
+.column-status {
+    margin: 10px;
+    gap: 10px;
+    grid-template-rows: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    min-height: 70vh;
+}
+.content {
+    display: block;
+    margin-top: 0px;
+}
+
+.cdk-drag-animating {
+    transition: transform 250ms cubic-bezier(0, 0, 0.2, 1);
+}
+
+.drop-list {
+    display: grid;
+    min-height: 60px;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.cdk-drop-list {
+    min-height: 100px;
+}
+
+.drop-item {
+    cursor: move;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.header {
+    text-align: center;
+}

@@ -21,3 +21,9 @@
 /src/Mercu.Kanban.WebApi/Mercu.Kanban.WebApi/bin/
 /src/Mercu.Kanban.WebApi/Mercu.Kanban.WebApi/obj/
 /src/Mercu.Kanban.WebApi/Mercu.Kanban.WebApi/.vs/
+
+#UI
+/src/UI/dist/
+/src/UI/.vscode/
+/src/UI/.angular/
+/src/UI/node_modules

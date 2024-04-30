@@ -1,0 +1,114 @@
+<div>
+    <form [formGroup]="candidateForm" (ngSubmit)="submit()">
+        <div class="tui-form__row">
+            <tui-input
+                formControlName="firstNameValue"
+                tuiHintContent="A tooltip"
+            >
+                Candidate First Name
+                <input
+                    placeholder="Field placeholder"
+                    tuiTextfield
+                />
+                <span class="tui-required"></span>
+            </tui-input>
+            <tui-error
+                formControlName="firstNameValue"
+                [error]="[] | tuiFieldError | async"
+            ></tui-error>
+        </div>
+        <div class="tui-form__row">
+            <tui-input
+                formControlName="lastNameValue"
+                tuiHintContent="A tooltip"
+            >
+                Candidate First Name
+                <input
+                    placeholder="Field placeholder"
+                    tuiTextfield
+                />
+                <span class="tui-required"></span>
+            </tui-input>
+            <tui-error
+                formControlName="lastNameValue"
+                [error]="[] | tuiFieldError | async"
+            ></tui-error>
+        </div>
+        <div class="tui-form__row">
+            <tui-input
+                formControlName="phoneValue"
+                tuiHintContent="A tooltip"
+            >
+                Phone Number
+                <input
+                    placeholder="Field placeholder"
+                    tuiTextfield
+                />
+                <span class="tui-required"></span>
+            </tui-input>
+            <tui-error
+                formControlName="phoneValue"
+                [error]="[] | tuiFieldError | async"
+            ></tui-error>
+        </div>
+        <div class="tui-form__row">
+            <tui-input
+                formControlName="emailValue"
+                tuiHintContent="A tooltip"
+            >
+                Email Address
+                <input
+                    placeholder="Field placeholder"
+                    tuiTextfield
+                />
+                <span class="tui-required"></span>
+            </tui-input>
+            <tui-error
+                formControlName="emailValue"
+                [error]="[] | tuiFieldError | async"
+            ></tui-error>
+        </div>
+        <div class="tui-form__row tui-form__row_multi-fields">
+            <div class="tui-form__multi-field">
+                <tui-select
+                    formControlName="jobValue"
+                    [valueContent]="jobContent"
+                >
+                    Choose a Job
+                    <tui-data-list-wrapper
+                        *tuiDataList
+                        [items]="jobs"
+                        [itemContent]="jobContent"
+                    ></tui-data-list-wrapper>
+                    <ng-template #jobContent let-job>
+                        <span>{{job.title}}</span>
+                    </ng-template>
+                </tui-select>
+                <tui-error
+                    formControlName="jobValue"
+                    [error]="[] | tuiFieldError | async"
+                ></tui-error>
+            </div>
+        </div>
+        <div class="tui-form__buttons">
+            <button
+                size="l"
+                tuiButton
+                type="submit"
+                class="tui-form__button"
+            >
+                Submit
+            </button>
+            <button
+                appearance="flat"
+                size="l"
+                tuiButton
+                type="button"
+                class="tui-form__button"
+                (click)="cancel()"
+            >
+                Cancel
+            </button>
+        </div>
+    </form>
+</div>

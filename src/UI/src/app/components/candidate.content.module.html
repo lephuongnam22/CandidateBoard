@@ -1,0 +1,37 @@
+<tui-loader
+class="loader"
+[inheritColor]="true"
+[overlay]="true"
+[showLoader]="showLoader"
+>
+<div tuiSurface
+class="board"
+>
+<div
+class="column-status"
+>
+    <div class="content"
+    cdkDropListGroup
+    *ngFor="let data of candidateStatus;">
+        <div
+            tuiCardLarge 
+            tuiSurface="elevated"
+            tuiTitle
+            class="header">
+            {{data.status}}
+        </div>
+
+        <div class="drop-list" cdkDropList id="{{data.status}}" [cdkDropListConnectedTo]="data.dropStatus"
+            [cdkDropListData]="data.candidates" (cdkDropListDropped)="drop($event)"
+            >
+            @for (candidate of data.candidates; track candidate) {
+                <candidate-card cdkDrag [candidate]="candidate" [cdkDragData]="candidate"></candidate-card>
+            }
+        
+        </div>
+        
+    </div>
+    
+</div>
+</div>
+</tui-loader>
