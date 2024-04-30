@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mercu.Kanban.WebApi", "Mercu.Kanban.WebApi\Mercu.Kanban.WebApi.csproj", "{13870B57-9F55-4F22-81CA-0B701B454C85}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mercu.Kanban.Domain", "Mercu.Kanban.Domain\Mercu.Kanban.Domain.csproj", "{03A5DCAB-643D-4B1B-AC28-9DCD3AB0A7BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mercu.Kanban.Infrastructure", "Mercu.Kanban.Infrastructure\Mercu.Kanban.Infrastructure.csproj", "{6DA1015C-3524-4F5E-B0B5-6C0E48AE7A45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mercu.Kanban.Application", "Mercu.Kanban.Application\Mercu.Kanban.Application.csproj", "{6F7EFB78-7D4E-4F1B-A276-B9C6A5C4EE54}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13870B57-9F55-4F22-81CA-0B701B454C85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13870B57-9F55-4F22-81CA-0B701B454C85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13870B57-9F55-4F22-81CA-0B701B454C85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13870B57-9F55-4F22-81CA-0B701B454C85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03A5DCAB-643D-4B1B-AC28-9DCD3AB0A7BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03A5DCAB-643D-4B1B-AC28-9DCD3AB0A7BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03A5DCAB-643D-4B1B-AC28-9DCD3AB0A7BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03A5DCAB-643D-4B1B-AC28-9DCD3AB0A7BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DA1015C-3524-4F5E-B0B5-6C0E48AE7A45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DA1015C-3524-4F5E-B0B5-6C0E48AE7A45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DA1015C-3524-4F5E-B0B5-6C0E48AE7A45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DA1015C-3524-4F5E-B0B5-6C0E48AE7A45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F7EFB78-7D4E-4F1B-A276-B9C6A5C4EE54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F7EFB78-7D4E-4F1B-A276-B9C6A5C4EE54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F7EFB78-7D4E-4F1B-A276-B9C6A5C4EE54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F7EFB78-7D4E-4F1B-A276-B9C6A5C4EE54}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FDA60E1A-1219-4D16-9797-BC2ADE69DE38}
+	EndGlobalSection
+EndGlobal
