@@ -25,4 +25,8 @@ export class CandidateService {
     getcandidateStatus(): Observable<any[]> {
         return this.http.get<any[]>(`${this.apiUrl}/candidate-status`);
     }
+
+    updateCandidateStatus(candidate: any) : Observable<any> {
+        return this.http.put<any>(`${this.apiUrl}/status`, candidate);
+    } 
 }

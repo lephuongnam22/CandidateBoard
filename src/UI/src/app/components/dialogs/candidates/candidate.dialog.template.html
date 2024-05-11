@@ -70,24 +70,53 @@
         </div>
         <div class="tui-form__row tui-form__row_multi-fields">
             <div class="tui-form__multi-field">
-                <tui-select
-                    formControlName="jobValue"
-                    [valueContent]="jobContent"
+                <tui-multi-select
+                [editable] = "false"
+                class="b-form"
+                formControlName="jobValue"
+                [identityMatcher]="identityMatcherJob"
+                [stringify]="stringifyJob"
                 >
-                    Choose a Job
-                    <tui-data-list-wrapper
-                        *tuiDataList
-                        [items]="jobs"
-                        [itemContent]="jobContent"
-                    ></tui-data-list-wrapper>
-                    <ng-template #jobContent let-job>
-                        <span>{{job.title}}</span>
-                    </ng-template>
-                </tui-select>
-                <tui-error
-                    formControlName="jobValue"
-                    [error]="[] | tuiFieldError | async"
-                ></tui-error>
+                Jobs
+                    <tui-data-list
+                    *tuiDataList
+                    tuiMultiSelectGroup>
+                        <button
+                        *ngFor="let job of jobs"
+                        tuiOption
+                        [value]="job"
+                        >
+                        {{ job.jobTitle }}
+                        </button>
+                    </tui-data-list>
+                </tui-multi-select>
+
+
+            </div>
+        </div>
+        <div class="tui-form__row tui-form__row_multi-fields">
+            <div class="tui-form__multi-field">
+                <tui-multi-select
+                [editable] = "false"
+                class="b-form"
+                formControlName="interviewerValue"
+                [stringify]="stringifyInterviewer"
+                >
+                Interviewers
+                    <tui-data-list
+                    *tuiDataList
+                    tuiMultiSelectGroup>
+                        <button
+                        *ngFor="let interviewer of interviewers"
+                        tuiOption
+                        [value]="interviewer"
+                        >
+                        {{ interviewer.name }}
+                        </button>
+                    </tui-data-list>
+                </tui-multi-select>
+
+
             </div>
         </div>
         <div class="tui-form__buttons">

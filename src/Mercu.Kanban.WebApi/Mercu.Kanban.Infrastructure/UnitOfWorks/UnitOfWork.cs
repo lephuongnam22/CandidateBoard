@@ -10,6 +10,8 @@ namespace Mercu.Kanban.Infrastructure.UnitOfWorks
         private ICandidateRepository _candidateRepository;
         private IJobRepository _jobRepository;
         private ICandidateJobRelationRepository _candidateJobRelationRepository;
+        private IInterviewerRepository _interviewerRepository;
+        private ICandidateInterviewerRelationRepository _candidateInterviewerRelationRepository;
         public DatabaseContext DatabaseContext => _databaseContext;
 
         public UnitOfWork(DatabaseContext databaseContext)
@@ -25,12 +27,22 @@ namespace Mercu.Kanban.Infrastructure.UnitOfWorks
 
         public IJobRepository JobRepository
         {
-            get { return _jobRepository = _jobRepository ?? new JobRepisitory(_databaseContext); }
+            get { return _jobRepository = _jobRepository ?? new JobRepository(_databaseContext); }
+        }
+
+        public IInterviewerRepository InterviewerRepository
+        {
+            get { return _interviewerRepository = _interviewerRepository ?? new InterviewerRepository(_databaseContext); }
         }
 
         public ICandidateJobRelationRepository CandidateJobRelationRepository
         {
             get { return _candidateJobRelationRepository = _candidateJobRelationRepository ?? new CandidateJobRelationRepository(_databaseContext); }
+        }
+
+        public ICandidateInterviewerRelationRepository CandidateInterviewerRelationRepository
+        {
+            get { return _candidateInterviewerRelationRepository = _candidateInterviewerRelationRepository ?? new CandidateInterviewerRelationRepository(_databaseContext); }
         }
 
         public async Task CommitAsync()

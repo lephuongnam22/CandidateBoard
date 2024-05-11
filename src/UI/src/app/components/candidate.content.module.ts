@@ -8,11 +8,11 @@ import { DragDropModule,CdkDragDrop, moveItemInArray,
     CdkDropList, CdkDrag } from '@angular/cdk/drag-drop';
 
 import {CandidateService} from './services/candidate.service';
-import { forkJoin } from 'rxjs';
+import { delay, finalize, forkJoin } from 'rxjs';
 import { HttpClientModule } from '@angular/common/http';
 import { CandidateStautusModel } from './models';
-import { CandidateListComponent } from './candidate.list.component';
 import {TuiLoaderModule, TuiDialogService} from '@taiga-ui/core';
+import {Subject} from 'rxjs';
 
 @Component({
     selector: 'candidate-content',
@@ -32,7 +32,6 @@ import {TuiLoaderModule, TuiDialogService} from '@taiga-ui/core';
         CdkDrag,
         TuiTitleModule,
         HttpClientModule,
-        CandidateListComponent,
         TuiLoaderModule,
       ],
       providers: [CandidateService]
@@ -50,10 +49,10 @@ export class CandidateContentModule implements OnInit {
 
     @Input() candidateStatus: Array<CandidateStautusModel>;
     statuses: string[];
-    showLoader:boolean;
+    readonly loading$ = new Subject<boolean>();
     
     ngOnInit() {
-       this.showLoader = true;
+      this.loading$.next(true);
         forkJoin(this.candidateService.getcandidateStatus(), this.candidateService.getCandidates()).subscribe(res => {
         this.candidateStatus = [];
         this.statuses = [];
@@ -65,16 +64,21 @@ export class CandidateContentModule implements OnInit {
                   {
                     let dropStatus = status.filter(a => a != n);
 
-                    var candidates = res[1];
+                    var candidateItem = res[1].find(x => x.candidateStatus === n);
+                    let candidates = [];
+                    if(candidateItem) {
+                      candidates = candidateItem.candidates;
+                    }
+
                     this.candidateStatus.push({status: n, candidates: candidates, dropStatus: dropStatus});
                   });
               }
 
-              this.showLoader = false;
-              this.changeDetection.detectChanges();
+              this.loading$.next(false);
+              //this.changeDetection.detectChanges();
             },(error) => {
               console.log(error);
-              this.showLoader = false;
+              this.loading$.next(false);
 
               this.dialogService.open(`
               <div>
@@ -105,13 +109,31 @@ export class CandidateContentModule implements OnInit {
             // Reorder items within the same list
              moveItemInArray(event.container.data, event.previousIndex, event.currentIndex);
         } else {
-            // Move items between lists
-            transferArrayItem(
+         
+          this.loading$.next(true);
+          let candidate = event.item.data;
+          candidate.CandidateStatus = event.container.id;
+
+          this.candidateService.updateCandidateStatus(candidate).pipe(delay(1000)).subscribe(res => {
+
+            if(res) {
+              transferArrayItem(
                 event.previousContainer.data,
                 event.container.data,
                 event.previousIndex,
                 event.currentIndex
-            );
+              );
+
+              this.loading$.next(false);
+            }
+          },(error) => {
+            this.dialogService.open(`
+            <div>
+              Cannot update Candiate Status. Please contact Administrator.
+            </div>`, {label: 'Error', size: 's'})
+            .subscribe();
+            this.loading$.next(false);
+          });
         }
     }
 

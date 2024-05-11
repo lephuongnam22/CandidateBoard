@@ -21,37 +21,101 @@ namespace Mercu.Kanban.Application.Commands.Candidates
 
         public async Task<CandidateModel> Handle(AddCandidateCommand request, CancellationToken cancellationToken)
         {
-            var candidate = await _unitOfWork.CandidateRepository.Get(n => n.Email == request.AddCandidateRequest.Email);
+            var candidate =
+                await _unitOfWork.CandidateRepository.Get(n => n.Email == request.AddCandidateRequest.Email);
 
             if (candidate != null)
             {
                 throw new Exception($"Candidate with email {request.AddCandidateRequest.Email} already exist");
             }
 
-            var job = await _unitOfWork.JobRepository.Get(n => n.Id == request.AddCandidateRequest.JobId);
-
-            if (job == null)
-            {
-                throw new Exception($"Job with Id {request.AddCandidateRequest.JobId} not exist");
-            }
+            var jobs = await ValidateJobIdExist(request.AddCandidateRequest.JobIds);
+            var interviewers = await ValidateInterviewerIdsExist(request.AddCandidateRequest.InterviewerIds);
 
             candidate = _mapper.Map<Candidate>(request.AddCandidateRequest);
 
             await _unitOfWork.CandidateRepository.AddAsync(candidate);
 
-            var jobCandidateRelation = new CandidateJobRelation
-            {
-                Candidate = candidate,
-                JobId = job.Id,
-            };
-
-            await _unitOfWork.CandidateJobRelationRepository.AddAsync(jobCandidateRelation);
-
+            await CreateCandidateJobRelations(candidate, jobs);
+            await CreateCandidateInterviewRelation(candidate, interviewers);
             await _unitOfWork.CommitAsync();
+
             var result = _mapper.Map<CandidateModel>(candidate);
-            result.JobId = job.Id;
-            result.JobTitle = job.JobTitle;
+            result.JobModels = jobs.Select(n => _mapper.Map<JobModel>(n)).ToList();
+            result.InterviewerModels = interviewers.Select(n => _mapper.Map<InterviewerModel>(n)).ToList();
             return result;
+        }
+
+        private async Task CreateCandidateInterviewRelation(Candidate candidate, IList<Interviewer> interviewers)
+        {
+            var candidateInterviewerRelations = new List<CandidateInterviewerRelation>();
+
+            foreach (var interviewer in interviewers)
+            {
+                var candidateInterviewerRelation = new CandidateInterviewerRelation
+                {
+                    Candidate = candidate,
+                    InterviewerId = interviewer.Id,
+                };
+
+                candidateInterviewerRelations.Add(candidateInterviewerRelation);
+            }
+
+            await _unitOfWork.CandidateInterviewerRelationRepository.AddRangeAsync(candidateInterviewerRelations);
+        }
+
+
+        private async Task CreateCandidateJobRelations(Candidate candidate, IList<Job> jobs)
+        {
+            var jobCandidateRelations = new List<CandidateJobRelation>();
+
+            foreach (var job in jobs)
+            {
+                var jobCandidateRelation = new CandidateJobRelation
+                {
+                    Candidate = candidate,
+                    JobId = job.Id,
+                };
+
+                jobCandidateRelations.Add(jobCandidateRelation);
+            }
+
+            await _unitOfWork.CandidateJobRelationRepository.AddRangeAsync(jobCandidateRelations);
+        }
+
+        private async Task<IList<Job>> ValidateJobIdExist(IList<int> jobIds)
+        {
+            if (jobIds == null || !jobIds.Any())
+            {
+                throw new Exception("JobIds is required");
+            }
+
+            var jobs = await _unitOfWork.JobRepository.GetWithConditions(n => jobIds.Contains(n.Id));
+
+            if (jobs == null || !jobs.Any())
+            {
+                throw new Exception($"Jobs with Id {string.Join(",", jobIds)} not exist");
+            }
+
+            return jobs;
+        }
+
+        private async Task<IList<Interviewer>> ValidateInterviewerIdsExist(IList<int> interviewerIds)
+        {
+            if (interviewerIds == null || !interviewerIds.Any())
+            {
+                throw new Exception("InterviewerIds is required");
+            }
+
+            var interviewers =
+                await _unitOfWork.InterviewerRepository.GetWithConditions(n => interviewerIds.Contains(n.Id));
+
+            if (interviewers == null || !interviewers.Any())
+            {
+                throw new Exception($"Interviewers with Id {string.Join(",", interviewerIds)} not exist");
+            }
+
+            return interviewers;
         }
     }
 }

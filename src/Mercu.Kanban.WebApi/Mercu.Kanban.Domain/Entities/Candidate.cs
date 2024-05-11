@@ -21,6 +21,8 @@ namespace Mercu.Kanban.Domain.Entities
         public CandidateStatus CandidateStatus { get; set; }
         [MaxLength(255)]
         public string PhoneNumber { get; set; }
+        public DateTime CreateDate  { get; set; }
         public virtual ICollection<CandidateJobRelation> CandidateJobRelations { get; set; }
+        public virtual ICollection<CandidateInterviewerRelation> CandidateInterviewerRelations { get; set; }
     }
 }

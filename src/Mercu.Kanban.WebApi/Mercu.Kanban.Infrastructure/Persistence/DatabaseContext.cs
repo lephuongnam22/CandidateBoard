@@ -18,6 +18,8 @@ namespace Mercu.Kanban.Infrastructure.Persistence
         public DbSet<Candidate> Candidates { get; set; }
         public DbSet<Job> Jobs { get; set; }
         public DbSet<CandidateJobRelation> CandidateJobRelations { get; set; }
+        public DbSet<CandidateInterviewerRelation> CandidateInterviewerRelations { get; set; }
+        public DbSet<Interviewer> Interviewers { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -52,6 +54,18 @@ namespace Mercu.Kanban.Infrastructure.Persistence
                 Property(e => e.CandidateStatus)
                 .HasDefaultValue(CandidateStatus.Applied)
                 .HasConversion<string>();
+
+            modelBuilder.Entity<Candidate>()
+                .Property(e => e.CreateDate)
+                .HasDefaultValueSql("CURRENT_TIMESTAMP(6)");
+
+            modelBuilder.Entity<CandidateInterviewerRelation>()
+                .HasOne(n => n.Interviewer)
+                .WithMany(n => n.CandidateInterviewerRelations);
+
+            modelBuilder.Entity<CandidateInterviewerRelation>()
+                .HasOne(n => n.Candidate)
+                .WithMany(n => n.CandidateInterviewerRelations);
         }
     }
 }

@@ -4,7 +4,7 @@ import {TuiRootModule, TuiButtonModule, TuiDialogModule, TuiErrorModule, TuiData
 import {AppComponent} from './app.component';
 import {TuiCardModule, TuiSurfaceModule, TuiHeaderModule, TuiIconModule, TuiChipModule} from '@taiga-ui/experimental';
 import {TuiPlatformModule} from '@taiga-ui/cdk';
-import { TuiTilesModule, TuiTileComponent, TuiDataListWrapperModule } from '@taiga-ui/kit';
+import { TuiTilesModule, TuiTileComponent, TuiDataListWrapperModule,TuiMultiSelectModule } from '@taiga-ui/kit';
 import { BrowserModule } from '@angular/platform-browser';
 import { CommonModule, NgTemplateOutlet } from '@angular/common';
 import { CandidateCardModule, CandidateButtonModule } from './components';
@@ -47,7 +47,8 @@ import { DragDropModule } from '@angular/cdk/drag-drop';
     TuiIconModule,
     DragDropModule,
     TuiChipModule,
-    TuiLoaderModule
+    TuiLoaderModule,
+    TuiMultiSelectModule
     // ...
   ],
   bootstrap: [AppComponent],

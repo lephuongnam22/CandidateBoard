@@ -8,6 +8,8 @@ namespace Mercu.Kanban.Infrastructure.UnitOfWorks
         ICandidateRepository CandidateRepository { get; }
         IJobRepository JobRepository { get; }
         ICandidateJobRelationRepository CandidateJobRelationRepository { get; }
+        IInterviewerRepository InterviewerRepository { get; }
+        ICandidateInterviewerRelationRepository CandidateInterviewerRelationRepository { get; }
         DatabaseContext DatabaseContext { get; }
         Task CreateTransactionAsync();
         Task CommitAsync();

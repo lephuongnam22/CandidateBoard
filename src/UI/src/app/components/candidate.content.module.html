@@ -2,7 +2,7 @@
 class="loader"
 [inheritColor]="true"
 [overlay]="true"
-[showLoader]="showLoader"
+[showLoader]="!!(loading$ | async)"
 >
 <div tuiSurface
 class="board"

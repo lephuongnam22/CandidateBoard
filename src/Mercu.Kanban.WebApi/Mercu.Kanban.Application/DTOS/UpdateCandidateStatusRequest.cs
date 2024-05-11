@@ -2,10 +2,9 @@
 
 namespace Mercu.Kanban.Application.DTOS
 {
-    public class CandidateStatusModel
+    public record UpdateCandidateStatusRequest
     {
+        public int Id { get; set; }
         public CandidateStatus CandidateStatus { get; set; }
-
-        public IEnumerable<CandidateModel> Candidates { get; set; }
     }
 }

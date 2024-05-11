@@ -22,39 +22,69 @@ namespace Mercu.Kanban.Application.Queries.Candidates
 
         public async Task<IList<CandidateStatusModel>> Handle(GetCandidateQuery request, CancellationToken cancellationToken)
         {
-           var query = from c in _unitOfWork.DatabaseContext.Candidates
-                       join s in _unitOfWork.DatabaseContext.CandidateJobRelations 
-                       on c.Id equals s.CandidateId into cs
-                       from cs1 in cs.DefaultIfEmpty()
-                       join j in _unitOfWork.DatabaseContext.Jobs 
-                       on cs1.JobId equals j.Id into js
-                       from js1 in js.DefaultIfEmpty()
-                       select new { Candidate = c, Job = js1 };
+            var jobQuery = from i in _unitOfWork.DatabaseContext.Candidates
+                join cj in _unitOfWork.DatabaseContext.CandidateJobRelations
+                    on i.Id equals cj.CandidateId
+                join j in _unitOfWork.DatabaseContext.Jobs on cj.JobId equals j.Id
+                group j by i.Id
+                into g
+                select new
+                {
+                    g.Key,
+                    Jobs = g.Select(n => n).ToList() ?? new List<Job>()
+                };
 
-            var groupQuery = await (from i in query
-                                    group i by new
-                                    {
-                                        i.Candidate.CandidateStatus
-                                    } into g
-                                    select new CandidateStatusModel
-                                    {
+            var interviewQuery = from i in _unitOfWork.DatabaseContext.Candidates
+                join ci in _unitOfWork.DatabaseContext.CandidateInterviewerRelations
+                    on i.Id equals ci.CandidateId
+                join c in _unitOfWork.DatabaseContext.Interviewers on ci.InterviewerId equals c.Id
+                group c by i.Id
+                into g
+                select new
+                {
+                    g.Key,
+                    Interviewers = g.Select(n => n).ToList() ?? new List<Interviewer>()
+                };
 
-                                        CandidateStatus = g.Key.CandidateStatus,
+            var candidateQuery = from c in _unitOfWork.DatabaseContext.Candidates
+                join j in jobQuery on c.Id equals j.Key
+                join i in interviewQuery on c.Id equals i.Key
+                select new
+                {
+                   c.Id,
+                   c.Email,
+                   c.FirstName,
+                   c.LastName,
+                   c.CreateDate,
+                   c.PhoneNumber,
+                   c.CandidateStatus,
+                   j.Jobs,
+                   i.Interviewers
+                };
 
-                                        Candidates = g.Select(n => new CandidateModel
-                                        {
-                                            Id = n.Candidate.Id,
-                                            FirstName = n.Candidate.FirstName,
-                                            Email = n.Candidate.Email,
-                                            LastName = n.Candidate.LastName,
-                                            PhoneNumber = n.Candidate.PhoneNumber,
-                                            JobId = n.Job != null ? n.Job.Id : 0,
-                                            CandidateStatus = n.Candidate.CandidateStatus,
-                                            JobTitle = n.Job != null ? n.Job.JobTitle : string.Empty
-                                        }).ToList()
+            var candidate = await candidateQuery.ToListAsync(cancellationToken);
 
-                                    }).ToListAsync(cancellationToken);
-            return groupQuery;
+            var result = (from c in candidate
+                group c by c.CandidateStatus
+                into g
+                select new CandidateStatusModel
+                {
+                    CandidateStatus = g.Key,
+                    Candidates = g.Select(n => new CandidateModel
+                    {
+                        Id = n.Id,
+                        Email = n.Email,
+                        FirstName = n.FirstName,
+                        LastName = n.LastName,
+                        CreateDate = n.CreateDate,
+                        PhoneNumber = n.PhoneNumber,
+                        CandidateStatus = n.CandidateStatus,
+                        JobModels = n.Jobs.Select(j => _mapper.Map<JobModel>(j)).ToList(),
+                        InterviewerModels = n.Interviewers.Select(i => _mapper.Map<InterviewerModel>(i)).ToList()
+                    }).ToList()
+                }).ToList();
+
+            return result;
         }
     }
 }
