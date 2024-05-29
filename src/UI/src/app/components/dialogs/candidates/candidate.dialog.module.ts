@@ -8,7 +8,7 @@ import {POLYMORPHEUS_CONTEXT} from '@tinkoff/ng-polymorpheus';
 import { CommonModule } from '@angular/common';
 import { JobService, CandidateService, InterviewerService } from '../../services/';
 import { HttpClientModule } from '@angular/common/http';
-import {  CandidateModel, JobModel, InterviewerModel } from '../../models';
+import {  JobModel, InterviewerModel, AddCandidateResultModel } from '../../models';
 import {TuiContextWithImplicit, TuiStringHandler, TuiIdentityMatcher} from '@taiga-ui/cdk';
 import { forkJoin } from 'rxjs';
 
@@ -38,10 +38,11 @@ import { forkJoin } from 'rxjs';
 export class CandidateDialogComponent implements OnInit {
     jobs: JobModel[];
     interviewers: InterviewerModel[];
+    private oldEmail: string;
 
     constructor(
         @Inject(POLYMORPHEUS_CONTEXT)
-        private readonly context: TuiDialogContext<void, CandidateModel>,
+        private readonly context: TuiDialogContext<AddCandidateResultModel, AddCandidateResultModel>,
         private readonly jobService: JobService,
         private readonly candidateService: CandidateService,
         private readonly interviewerService: InterviewerService
@@ -51,7 +52,7 @@ export class CandidateDialogComponent implements OnInit {
         firstNameValue: new FormControl('', Validators.required),
         lastNameValue: new FormControl('', Validators.required),
         phoneValue: new FormControl('', Validators.required),
-        emailValue: new FormControl('', Validators.required),
+        emailValue: new FormControl('', Validators.compose([Validators.required, Validators.email])),
         jobValue: new FormControl<JobModel[] | null>(null, Validators.required),
         interviewerValue: new FormControl<InterviewerModel[] | null>(null, Validators.required),
       });
@@ -91,14 +92,15 @@ export class CandidateDialogComponent implements OnInit {
 
     updateDisplay() {
       if(this.context.data) {
-        this.candidateForm.controls.firstNameValue.setValue(this.context.data.firstName);
-        this.candidateForm.controls.lastNameValue.setValue(this.context.data.lastName);
-        this.candidateForm.controls.emailValue.setValue(this.context.data.email);
-        this.candidateForm.controls.phoneValue.setValue(this.context.data.phoneNumber);
+        this.oldEmail = this.context.data.candidate.email;
+        this.candidateForm.controls.firstNameValue.setValue(this.context.data.candidate.firstName);
+        this.candidateForm.controls.lastNameValue.setValue(this.context.data.candidate.lastName);
+        this.candidateForm.controls.emailValue.setValue(this.context.data.candidate.email);
+        this.candidateForm.controls.phoneValue.setValue(this.context.data.candidate.phoneNumber);
         
-        if(this.context.data.jobModels && this.context.data.jobModels.length > 0) {
+        if(this.context.data.candidate.jobModels && this.context.data.candidate.jobModels.length > 0) {
           let selectedJobs: Array<JobModel> = [];
-          this.context.data.jobModels.forEach(j => {
+          this.context.data.candidate.jobModels.forEach(j => {
             var job = this.jobs.find(n => n.id === j.id);
 
             if(job) {
@@ -108,10 +110,10 @@ export class CandidateDialogComponent implements OnInit {
 
           this.candidateForm.controls.jobValue.setValue(selectedJobs);
         }
-        if(this.context.data.interviewerModels && this.context.data.interviewerModels.length > 0) {
+        if(this.context.data.candidate.interviewerModels && this.context.data.candidate.interviewerModels.length > 0) {
           let selectedInterviewers: Array<InterviewerModel> = [];
 
-          this.context.data.interviewerModels.forEach(j => {
+          this.context.data.candidate.interviewerModels.forEach(j => {
             var interviewer = this.interviewers.find(n => n.id === j.id);
 
             if(interviewer) {
@@ -130,7 +132,7 @@ export class CandidateDialogComponent implements OnInit {
       if(this.candidateForm.valid) {
         let candidate:any;
         candidate = {
-          id: 3,
+          id: 0,
           firstName: this.candidateForm.controls.firstNameValue.value,
           lastName: this.candidateForm.controls.lastNameValue.value,
           phoneNumber: this.candidateForm.controls.phoneValue.value,
@@ -138,19 +140,32 @@ export class CandidateDialogComponent implements OnInit {
           jobIds: this.candidateForm.controls.jobValue.value?.map(n => n.id),
           interviewerIds: this.candidateForm.controls.interviewerValue.value?.map(n => n.id),
           candidateStatus: "Applied",
+          oldEmail: this.oldEmail
         };
 
+        if(this.context.data && !this.context.data.isAdd) {
+          candidate.id = this.context.data.candidate.id;
 
-        this.candidateService.addcandidate(candidate).subscribe(res => {
-          if(res) {
-            this.context.completeWith(res);
-          }
-        });
+          this.candidateService.updateCandidate(candidate).subscribe(res => {
+            if(res) {
+              let data: AddCandidateResultModel = {isAdd: false, candidate: res };
+              this.context.completeWith(data);
+            }
+          });
+        }
+        else {
+          this.candidateService.addcandidate(candidate).subscribe(res => {
+            if(res) {
+              let data: AddCandidateResultModel = {isAdd: true, candidate: res };
+              this.context.completeWith(data);
+            }
+          });
+        }
       }
       
     } 
 
     cancel() {
-      this.context.completeWith();
+      this.context.completeWith({isAdd: false, candidate: {id: 0, firstName: "", lastName: "", phoneNumber: "", email: "", jobModels:[], interviewerModels: [], createDate:""} });
     }
 }

@@ -1,8 +1,6 @@
-import {Component, Inject, Injector} from '@angular/core';
-import { CandidateContentModule, CandidateTitleModule, CandidateButtonModule, CandidateBoardComponent } from './components/index';
+import {Component} from '@angular/core';
+import { CandidateContentModule, CandidateBoardComponent, CandidateFilterComponent } from './components/index';
 import {TuiRootModule, TuiDialogModule, TuiButtonModule} from '@taiga-ui/core';
-//import { TuiDialogService } from '@taiga-ui/core';
-//import { PolymorpheusComponent } from '@tinkoff/ng-polymorpheus';
  
 @Component({
   standalone: true,
@@ -12,18 +10,14 @@ import {TuiRootModule, TuiDialogModule, TuiButtonModule} from '@taiga-ui/core';
   imports: [
     TuiRootModule,
     CandidateContentModule,
-    CandidateTitleModule,
-    CandidateButtonModule,
+    CandidateFilterComponent,
     TuiButtonModule,
     TuiDialogModule,
     CandidateBoardComponent,
-
-    // ...
   ],
 })
 export class AppComponent {
 
   constructor(
-    @Inject(Injector) private readonly injector: Injector
   ) {}
 }

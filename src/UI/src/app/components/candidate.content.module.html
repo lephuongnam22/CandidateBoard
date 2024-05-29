@@ -25,7 +25,7 @@ class="column-status"
             [cdkDropListData]="data.candidates" (cdkDropListDropped)="drop($event)"
             >
             @for (candidate of data.candidates; track candidate) {
-                <candidate-card cdkDrag [candidate]="candidate" [cdkDragData]="candidate"></candidate-card>
+                <candidate-card cdkDrag [candidate]="candidate" [cdkDragData]="candidate" (onEditCandidate)="onEditCandidate($event)"></candidate-card>
             }
         
         </div>

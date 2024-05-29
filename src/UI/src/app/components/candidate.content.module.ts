@@ -8,7 +8,7 @@ import { DragDropModule,CdkDragDrop, moveItemInArray,
     CdkDropList, CdkDrag } from '@angular/cdk/drag-drop';
 
 import {CandidateService} from './services/candidate.service';
-import { delay, finalize, forkJoin } from 'rxjs';
+import { delay, forkJoin, Observable } from 'rxjs';
 import { HttpClientModule } from '@angular/common/http';
 import { CandidateStautusModel } from './models';
 import {TuiLoaderModule, TuiDialogService} from '@taiga-ui/core';
@@ -53,42 +53,32 @@ export class CandidateContentModule implements OnInit {
     
     ngOnInit() {
       this.loading$.next(true);
-        forkJoin(this.candidateService.getcandidateStatus(), this.candidateService.getCandidates()).subscribe(res => {
-        this.candidateStatus = [];
-        this.statuses = [];
-        
-              if(res[0]) {
-                let status = res[0];
-                this.statuses = res[0];
-                res[0].forEach(n => 
-                  {
-                    let dropStatus = status.filter(a => a != n);
+      this.candidateService.getcandidateStatus().subscribe(res => {
+        if(res) {
+          this.statuses = [];
+          this.candidateStatus =[];
+          let observableBatch :Observable<any>[] = [] ;
+          res.forEach(n => {
+            observableBatch.push(this.candidateService.getCandidateByStatus(n));
+            this.statuses.push(n);
+            let dropStatus = res.filter(x => x != n);
+            this.candidateStatus.push({status: n, candidates: [], dropStatus: dropStatus});
+          })
 
-                    var candidateItem = res[1].find(x => x.candidateStatus === n);
-                    let candidates = [];
-                    if(candidateItem) {
-                      candidates = candidateItem.candidates;
-                    }
+          forkJoin(observableBatch).subscribe(res => {
+            if(res) {
+              let i = 0;
 
-                    this.candidateStatus.push({status: n, candidates: candidates, dropStatus: dropStatus});
-                  });
+              for(i;i< res.length;i++) {
+                this.candidateStatus[i].candidates = res[i].candidates;
               }
+            }
 
-              this.loading$.next(false);
-              //this.changeDetection.detectChanges();
-            },(error) => {
-              console.log(error);
-              this.loading$.next(false);
+            this.changeDetection.detectChanges();
+          });
+        }
+      });
 
-              this.dialogService.open(`
-              <div>
-                Cannot load data from API Server. Please contact Administrator.
-              </div>`, {label: 'Error', size: 's'})
-              .subscribe();
-              
-              this.changeDetection.detectChanges();
-            });
-          
     }
 
     onAddNewCandidate(candidate: CandidateModel): void {
@@ -102,6 +92,22 @@ export class CandidateContentModule implements OnInit {
         applidedList.candidates = [...applidedList.candidates.concat(candidate)];
         this.changeDetection.detectChanges();
       }
+    }
+
+    onEditCandidate(candidate: CandidateModel): void {
+      this.candidateStatus.forEach(element => {
+        var oldCandidate = element.candidates?.find(n => n.id == candidate.id);
+
+        if(oldCandidate) {
+          oldCandidate.firstName = candidate.firstName;
+          oldCandidate.lastName = candidate.lastName;
+          oldCandidate.email = candidate.email;
+          oldCandidate.phoneNumber = candidate.phoneNumber;
+          oldCandidate.jobModels = candidate.jobModels;
+          oldCandidate.interviewerModels = candidate.interviewerModels;
+          this.changeDetection.detectChanges();
+        }
+      });
     }
 
     drop(event: CdkDragDrop<any[]>) {

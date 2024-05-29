@@ -85,11 +85,6 @@ namespace Mercu.Kanban.Application.Commands.Candidates
 
         private async Task<IList<Job>> ValidateJobIdExist(IList<int> jobIds)
         {
-            if (jobIds == null || !jobIds.Any())
-            {
-                throw new Exception("JobIds is required");
-            }
-
             var jobs = await _unitOfWork.JobRepository.GetWithConditions(n => jobIds.Contains(n.Id));
 
             if (jobs == null || !jobs.Any())
@@ -102,11 +97,6 @@ namespace Mercu.Kanban.Application.Commands.Candidates
 
         private async Task<IList<Interviewer>> ValidateInterviewerIdsExist(IList<int> interviewerIds)
         {
-            if (interviewerIds == null || !interviewerIds.Any())
-            {
-                throw new Exception("InterviewerIds is required");
-            }
-
             var interviewers =
                 await _unitOfWork.InterviewerRepository.GetWithConditions(n => interviewerIds.Contains(n.Id));
 

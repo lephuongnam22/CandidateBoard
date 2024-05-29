@@ -11,19 +11,19 @@ namespace Mercu.Kanban.WebApi.Controllers
     [Route("candidates")]
     public class CandidateController : BaseController
     {
-        [HttpGet]
-        public async Task<IActionResult> GetAllCandidate()
-        {
-            try
-            {
-                var results = await Mediator.Send(new GetCandidateQuery());
-                return Ok(results);
-            }
-            catch (Exception ex)
-            {
-                return HandleProblemReturn(ex, nameof(GetAllCandidate));
-            }
-        }
+        //[HttpGet]
+        //public async Task<IActionResult> GetAllCandidate()
+        //{
+        //    try
+        //    {
+        //        var results = await Mediator.Send(new GetCandidateQuery());
+        //        return Ok(results);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return HandleProblemReturn(ex, nameof(GetAllCandidate));
+        //    }
+        //}
 
         [HttpGet("candidate-status")]
         public IActionResult GetCandidateStatus()
@@ -54,6 +54,21 @@ namespace Mercu.Kanban.WebApi.Controllers
             }
         }
 
+        [HttpGet]
+
+        public async Task<IActionResult> GetCandidateByCandidateStatus([FromQuery]CandidateStatus candidateStatus)
+        {
+            try
+            {
+                var result = await Mediator.Send(new GetCandidateByStatusQuery(candidateStatus));
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return HandleProblemReturn(ex, nameof(GetCandidateByCandidateStatus));
+            }
+        }
+
         [HttpPost]
         public async Task<IActionResult> AddCandidate(AddCandidateRequest addCandidateRequest)
         {
@@ -79,6 +94,20 @@ namespace Mercu.Kanban.WebApi.Controllers
             catch (Exception ex)
             {
                 return HandleProblemReturn(ex, nameof(AddCandidate));
+            }
+        }
+
+        [HttpPut]
+        public async Task<IActionResult> UpdateCandidate(UpdateCandidateRequest updateCandidateRequest)
+        {
+            try
+            {
+                var result = await Mediator.Send(new UpdateCandidateCommand(updateCandidateRequest));
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return HandleProblemReturn(ex, nameof(UpdateCandidate));
             }
         }
     }

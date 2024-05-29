@@ -1,5 +1,5 @@
 import {Component, ViewChild} from '@angular/core';
-import { CandidateContentModule, CandidateButtonModule,  CandidateTitleModule } from './index';
+import { CandidateContentModule, CandidateFilterComponent } from './index';
 import {CandidateService} from './services/candidate.service';
 import { CandidateModel } from './models';
 
@@ -11,8 +11,7 @@ import { CandidateModel } from './models';
     styleUrls: ['./candidate.board.component.less'],
     imports: [
       CandidateContentModule,
-      CandidateButtonModule,
-      CandidateTitleModule,
+      CandidateFilterComponent,
     ],
     providers: [CandidateService]
   })

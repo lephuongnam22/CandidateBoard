@@ -4,17 +4,15 @@ import {TuiRootModule, TuiButtonModule, TuiDialogModule, TuiErrorModule, TuiData
 import {AppComponent} from './app.component';
 import {TuiCardModule, TuiSurfaceModule, TuiHeaderModule, TuiIconModule, TuiChipModule} from '@taiga-ui/experimental';
 import {TuiPlatformModule} from '@taiga-ui/cdk';
-import { TuiTilesModule, TuiTileComponent, TuiDataListWrapperModule,TuiMultiSelectModule } from '@taiga-ui/kit';
+import {TuiDataListWrapperModule,TuiMultiSelectModule } from '@taiga-ui/kit';
 import { BrowserModule } from '@angular/platform-browser';
 import { CommonModule, NgTemplateOutlet } from '@angular/common';
-import { CandidateCardModule, CandidateButtonModule } from './components';
-import {TuiInputModule, TuiFieldErrorPipeModule, TuiSelectModule} from '@taiga-ui/kit';
+import {TuiInputModule, TuiFieldErrorPipeModule, TuiSelectModule, TuiInputDateRangeModule} from '@taiga-ui/kit';
 import { FormsModule,ReactiveFormsModule  } from '@angular/forms';
 import {TUI_DIALOG_CLOSES_ON_BACK} from '@taiga-ui/cdk';
 import {of} from 'rxjs';
 import { JobService } from './components/services/job.service';
 import { HttpClientModule } from '@angular/common/http';
-import {TuiBlockStatusModule} from '@taiga-ui/layout';
 import { DragDropModule } from '@angular/cdk/drag-drop';
 
 @NgModule({
@@ -28,12 +26,9 @@ import { DragDropModule } from '@angular/cdk/drag-drop';
     TuiSurfaceModule,
     TuiPlatformModule,
     TuiButtonModule,
-    TuiTilesModule,
     BrowserModule,
     CommonModule,
     NgTemplateOutlet,
-    CandidateCardModule,
-    CandidateButtonModule,
     TuiDialogModule,
     TuiInputModule,
     FormsModule,
@@ -48,7 +43,9 @@ import { DragDropModule } from '@angular/cdk/drag-drop';
     DragDropModule,
     TuiChipModule,
     TuiLoaderModule,
-    TuiMultiSelectModule
+    TuiMultiSelectModule,
+    TuiInputDateRangeModule,
+    TuiIconModule,
     // ...
   ],
   bootstrap: [AppComponent],

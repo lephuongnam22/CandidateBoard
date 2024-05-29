@@ -1,16 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Mercu.Kanban.Application.DTOS
+﻿namespace Mercu.Kanban.Application.DTOS
 {
+#pragma warning disable CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
     public record UpdateCandidateRequest : AddCandidateRequest
     {
         public string OldEmail { get; set; }
-        public string OldPhoneNumber { get; set; }
-        public int OldJobId { get; set; }
-
     }
 }

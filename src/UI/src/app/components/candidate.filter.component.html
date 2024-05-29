@@ -1,0 +1,60 @@
+<form [formGroup]="filterForm" (ngSubmit)="submit()" class="filter-form">
+        <div class="tui-form__row tui-form__row_multi-fields test-width">
+            <div class="tui-form__multi-field tui-form__row_half-width">
+                <tui-input tuiTextfieldIconLeft="tuiIconSearchLarge"
+                formControlName="candidateName"
+                >Candidate Name:</tui-input>
+            </div>
+            <div class="tui-form__multi-field">
+                <tui-input-date-range [max]="max"
+                [min]="min"
+                formControlName="appliedDate">Applied Date:
+                <input
+                    placeholder="From - To"
+                    tuiTextfield />
+                </tui-input-date-range>
+            </div>
+            <div class="tui-form__multi-field">
+                <tui-multi-select
+                [editable] = "false"
+                class="b-form"
+                formControlName="interviewerValue"
+                [stringify]="stringifyInterviewer"
+                >
+                Interviewers
+                    <tui-data-list
+                    *tuiDataList
+                    tuiMultiSelectGroup>
+                        <button
+                        *ngFor="let interviewer of interviewers"
+                        tuiOption
+                        [value]="interviewer"
+                        >
+                        {{ interviewer.name }}
+                        </button>
+                    </tui-data-list>
+                </tui-multi-select>
+            </div>
+            <div class="tui-form__multi-field">
+                <button style="align-items: center;"
+                tuiButton
+                size="l"
+                tuiButton
+                type="submit"
+                class="tui-form__button"
+                >
+                    Filter
+                </button>
+
+                <button style="margin-left: 20px;"
+                tuiButton
+                size="l"
+                type="button"
+                (click)="onAddCandidateClick()"
+                >
+                    Add Candidate
+                </button>
+                
+            </div>
+        </div>
+</form>

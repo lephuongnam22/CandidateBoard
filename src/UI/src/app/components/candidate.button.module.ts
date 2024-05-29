@@ -1,8 +1,8 @@
 import { ChangeDetectionStrategy, Component, Inject, Injector, Output, EventEmitter } from '@angular/core';
-import {TuiButtonModule, TuiDialogService, TuiDialogContext} from '@taiga-ui/core';
+import {TuiButtonModule, TuiDialogService} from '@taiga-ui/core';
 import {PolymorpheusComponent} from '@tinkoff/ng-polymorpheus';
 import { CandidateDialogComponent } from './dialogs';
-import {CandidateModel} from './models';
+import {AddCandidateResultModel} from './models';
 
 @Component({
     selector: 'candidate-button',
@@ -34,7 +34,7 @@ import {CandidateModel} from './models';
 })
 
 export class CandidateButtonModule {
-    private readonly dialogAddCandidate = this.dialogService.open<CandidateModel>(
+    private readonly dialogAddCandidate = this.dialogService.open<AddCandidateResultModel>(
         new PolymorpheusComponent(CandidateDialogComponent, this.injector),
         { dismissible: true, label: 'Add Candidate' }
       );
@@ -47,8 +47,8 @@ export class CandidateButtonModule {
     onAddCandidateClick(): void {
         this.dialogAddCandidate.subscribe({
             next: data => {
-              if(data && data.id != 0) {
-                this.onAddCandidate.emit(data);
+              if(data && data.candidate && data.candidate.id != 0) {
+                this.onAddCandidate.emit(data.candidate);
               }
             }
         });

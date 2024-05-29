@@ -1,10 +1,12 @@
 using MediatR;
 using Mercu.Kanban.Application.Queries.Candidates;
 using Mercu.Kanban.Application.Validators;
+using Mercu.Kanban.Application.Validators.Candidates;
 using Mercu.Kanban.Infrastructure.Persistence;
 using Mercu.Kanban.Infrastructure.UnitOfWorks;
 using Microsoft.EntityFrameworkCore;
 using System.Text.Json.Serialization;
+using FluentValidation;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -22,6 +24,8 @@ builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 builder.Services.AddMediatR(c => c.RegisterServicesFromAssemblyContaining<GetCandidateByIdQuery>());
+
+builder.Services.AddValidatorsFromAssemblyContaining<AddCandidateCommandValidator>();
 builder.Services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
 
 builder.Services.AddSwaggerGen();
