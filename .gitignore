@@ -11,16 +11,16 @@
 
 
 # Bin and Debug folder
-/src/Mercu.Kanban.WebApi/.vs/
-/src/Mercu.Kanban.WebApi/Mercu.Kanban.Application/bin/
-/src/Mercu.Kanban.WebApi/Mercu.Kanban.Application/obj/
-/src/Mercu.Kanban.WebApi/Mercu.Kanban.Domain/bin/
-/src/Mercu.Kanban.WebApi/Mercu.Kanban.Domain/obj/
-/src/Mercu.Kanban.WebApi/Mercu.Kanban.Infrastructure/bin/
-/src/Mercu.Kanban.WebApi/Mercu.Kanban.Infrastructure/obj/
-/src/Mercu.Kanban.WebApi/Mercu.Kanban.WebApi/bin/
-/src/Mercu.Kanban.WebApi/Mercu.Kanban.WebApi/obj/
-/src/Mercu.Kanban.WebApi/Mercu.Kanban.WebApi/.vs/
+/src/Kanban.Board.WebApi/.vs/
+/src/Kanban.Board.WebApi/Kanban.Board.Application/bin/
+/src/Kanban.Board.WebApi/Kanban.Board.Application/obj/
+/src/Kanban.Board.WebApi/Kanban.Board.Domain/bin/
+/src/Kanban.Board.WebApi/Kanban.Board.Domain/obj/
+/src/Kanban.Board.WebApi/Kanban.Board.Infrastructure/bin/
+/src/Kanban.Board.WebApi/Kanban.Board.Infrastructure/obj/
+/src/Kanban.Board.WebApi/Kanban.Board.WebApi/bin/
+/src/Kanban.Board.WebApi/Kanban.Board.WebApi/obj/
+/src/Kanban.Board.WebApi/Kanban.Board.WebApi/.vs/
 
 #UI
 /src/UI/dist/
