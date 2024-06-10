@@ -291,8 +291,7 @@
               "RelativeToolTip": "Kanban.Board.WebApi\\Program.cs",
               "ViewState": "AQIAACkAAAAAAAAAAAArwDkAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T07:13:19.713Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T07:13:19.713Z"
             },
             {
               "$type": "Document",
@@ -304,8 +303,7 @@
               "RelativeToolTip": "Kanban.Board.WebApi\\Controllers\\JobController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T07:13:13.199Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T07:13:13.199Z"
             },
             {
               "$type": "Document",
@@ -317,8 +315,7 @@
               "RelativeToolTip": "Kanban.Board.WebApi\\Controllers\\InterviewerController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T07:13:06.397Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T07:13:06.397Z"
             },
             {
               "$type": "Document",
@@ -330,8 +327,7 @@
               "RelativeToolTip": "Kanban.Board.WebApi\\Controllers\\CandidateController.cs",
               "ViewState": "AQIAAG4AAAAAAAAAAAAuwAwAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T07:12:52.858Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T07:12:52.858Z"
             },
             {
               "$type": "Document",
@@ -343,8 +339,7 @@
               "RelativeToolTip": "Kanban.Board.Infrastructure\\Migrations\\20240503154220_SeedData.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T07:12:30.645Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T07:12:30.645Z"
             },
             {
               "$type": "Document",
@@ -356,8 +351,7 @@
               "RelativeToolTip": "Kanban.Board.Application\\Validators\\Candidates\\UpdateCandidateCommandValidator.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T07:12:19.7Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T07:12:19.7Z"
             },
             {
               "$type": "Document",
@@ -369,8 +363,7 @@
               "RelativeToolTip": "Kanban.Board.Infrastructure\\Migrations\\20240503154147_InitialDatabase.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T07:11:56.278Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T07:11:56.278Z"
             },
             {
               "$type": "Document",
@@ -382,8 +375,7 @@
               "RelativeToolTip": "Kanban.Board.Application\\Validators\\Jobs\\JobIdValidator.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T07:11:43.812Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T07:11:43.812Z"
             },
             {
               "$type": "Document",
@@ -395,8 +387,7 @@
               "RelativeToolTip": "Kanban.Board.Application\\Validators\\ValidationBehavior.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T07:11:30.094Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T07:11:30.094Z"
             },
             {
               "$type": "Document",
@@ -408,8 +399,7 @@
               "RelativeToolTip": "Kanban.Board.Application\\Validators\\Interviewers\\InterviewerIdValidator.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T07:11:20.929Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T07:11:20.929Z"
             },
             {
               "$type": "Document",
@@ -421,8 +411,7 @@
               "RelativeToolTip": "Kanban.Board.Application\\Validators\\Candidates\\AddCandidateCommandValidator.cs",
               "ViewState": "AQIAAB8AAAAAAAAAAAAgwAkAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T07:10:53.102Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T07:10:53.102Z"
             },
             {
               "$type": "Document",
@@ -434,8 +423,7 @@
               "RelativeToolTip": "Kanban.Board.Infrastructure\\Migrations\\20240503154220_SeedData.Designer.cs",
               "ViewState": "AQIAAAEAAAAAAAAAAADwvxAAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T07:10:33.665Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T07:10:33.665Z"
             },
             {
               "$type": "Document",
@@ -447,8 +435,7 @@
               "RelativeToolTip": "Kanban.Board.Infrastructure\\Migrations\\DatabaseContextModelSnapshot.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T07:10:46.061Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T07:10:46.061Z"
             },
             {
               "$type": "Document",
@@ -460,8 +447,7 @@
               "RelativeToolTip": "Kanban.Board.Infrastructure\\Migrations\\20240503154147_InitialDatabase.Designer.cs",
               "ViewState": "AQIAAAEAAAAAAAAAAADwvxAAAABLAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T07:10:17.555Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T07:10:17.555Z"
             },
             {
               "$type": "Document",
@@ -473,8 +459,7 @@
               "RelativeToolTip": "Kanban.Board.Application\\Commands\\Candidates\\UpdateCandidateStatusCommand.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T07:10:04.218Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T07:10:04.218Z"
             },
             {
               "$type": "Document",
@@ -486,8 +471,7 @@
               "RelativeToolTip": "Kanban.Board.Application\\Commands\\Jobs\\AddJobCommand.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T07:09:58.695Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T07:09:58.695Z"
             },
             {
               "$type": "Document",
@@ -499,8 +483,7 @@
               "RelativeToolTip": "Kanban.Board.Application\\Mapper\\CandidateProfile.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T07:09:53.329Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T07:09:53.329Z"
             },
             {
               "$type": "Document",
@@ -512,8 +495,7 @@
               "RelativeToolTip": "Kanban.Board.Application\\Mapper\\InterviewerProfile.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T07:09:44.562Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T07:09:44.562Z"
             },
             {
               "$type": "Document",
@@ -525,8 +507,7 @@
               "RelativeToolTip": "Kanban.Board.Application\\Mapper\\JobProfile.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T07:09:30.025Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T07:09:30.025Z"
             },
             {
               "$type": "Document",
@@ -538,8 +519,7 @@
               "RelativeToolTip": "Kanban.Board.Application\\Queries\\Candidates\\GetCandidateByIdQuery.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T07:09:21.188Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T07:09:21.188Z"
             },
             {
               "$type": "Document",
@@ -551,8 +531,7 @@
               "RelativeToolTip": "Kanban.Board.Application\\Queries\\Candidates\\GetCandidateByStatusQuery.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAQwBEAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T07:09:12.649Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T07:09:12.649Z"
             },
             {
               "$type": "Document",
@@ -564,8 +543,7 @@
               "RelativeToolTip": "Kanban.Board.Application\\Queries\\Candidates\\GetCandidateQuery.cs",
               "ViewState": "AQIAACwAAAAAAAAAAAAwwAsAAABqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T07:09:03.14Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T07:09:03.14Z"
             },
             {
               "$type": "Document",
@@ -577,8 +555,7 @@
               "RelativeToolTip": "Kanban.Board.Application\\Queries\\Candidates\\SearchCandidateQuery.cs",
               "ViewState": "AQIAAFYAAAAAAAAAAAAwwAkAAABwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T07:08:44.586Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T07:08:44.586Z"
             },
             {
               "$type": "Document",
@@ -590,8 +567,7 @@
               "RelativeToolTip": "Kanban.Board.Application\\Queries\\Interviewers\\GetInterviewerQuery.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T07:08:06.273Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T07:08:06.273Z"
             },
             {
               "$type": "Document",
@@ -603,21 +579,19 @@
               "RelativeToolTip": "Kanban.Board.Application\\Queries\\Jobs\\GetJobsQuery.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T07:07:49.415Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T07:07:49.415Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 26,
-              "Title": "Kanban.Board.WebApi",
+              "Title": "Kanban.Board.WebApi.csproj",
               "DocumentMoniker": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.WebApi\\Kanban.Board.WebApi.csproj",
               "RelativeDocumentMoniker": "Kanban.Board.WebApi\\Kanban.Board.WebApi.csproj",
               "ToolTip": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.WebApi\\Kanban.Board.WebApi.csproj",
               "RelativeToolTip": "Kanban.Board.WebApi\\Kanban.Board.WebApi.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-10T07:07:28.792Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T07:07:28.792Z"
             },
             {
               "$type": "Document",
@@ -629,8 +603,7 @@
               "RelativeToolTip": "Kanban.Board.Application\\DTOS\\UpdateCandidateStatusRequest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T07:06:52.927Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T07:06:52.927Z"
             },
             {
               "$type": "Document",
@@ -642,8 +615,7 @@
               "RelativeToolTip": "Kanban.Board.Application\\DTOS\\UpdateCandidateRequest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T07:06:47.901Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T07:06:47.901Z"
             },
             {
               "$type": "Document",
@@ -655,8 +627,7 @@
               "RelativeToolTip": "Kanban.Board.Application\\DTOS\\SearchCandidateRequest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T07:06:42.269Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T07:06:42.269Z"
             },
             {
               "$type": "Document",
@@ -668,8 +639,7 @@
               "RelativeToolTip": "Kanban.Board.Application\\DTOS\\JobModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T07:06:34.643Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T07:06:34.643Z"
             },
             {
               "$type": "Document",
@@ -681,8 +651,7 @@
               "RelativeToolTip": "Kanban.Board.Application\\DTOS\\InterviewerModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T07:06:25.587Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T07:06:25.587Z"
             },
             {
               "$type": "Document",
@@ -694,8 +663,7 @@
               "RelativeToolTip": "Kanban.Board.Application\\DTOS\\CandidateModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T07:05:48.408Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T07:05:48.408Z"
             },
             {
               "$type": "Document",
@@ -707,8 +675,7 @@
               "RelativeToolTip": "Kanban.Board.Application\\Commands\\Candidates\\UpdateCandidateCommand.cs",
               "ViewState": "AQIAAE0AAAAAAAAAAAAIwA8AAABUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T06:57:00.835Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T06:57:00.835Z"
             },
             {
               "$type": "Document",
@@ -720,8 +687,7 @@
               "RelativeToolTip": "Kanban.Board.Application\\DTOS\\CandidateStatusModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T07:06:15.657Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T07:06:15.657Z"
             },
             {
               "$type": "Document",
@@ -733,8 +699,7 @@
               "RelativeToolTip": "Kanban.Board.Application\\DTOS\\CandidateModelBase.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T07:06:06.649Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T07:06:06.649Z"
             },
             {
               "$type": "Document",
@@ -746,8 +711,7 @@
               "RelativeToolTip": "Kanban.Board.Application\\DTOS\\AddCandidateRequest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T07:05:33.726Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T07:05:33.726Z"
             },
             {
               "$type": "Document",
@@ -759,8 +723,7 @@
               "RelativeToolTip": "Kanban.Board.Infrastructure\\Repositories\\JobRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T07:04:00.164Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T07:04:00.164Z"
             },
             {
               "$type": "Document",
@@ -772,8 +735,7 @@
               "RelativeToolTip": "Kanban.Board.Infrastructure\\Repositories\\InterviewerRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T07:03:47.005Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T07:03:47.005Z"
             },
             {
               "$type": "Document",
@@ -785,8 +747,7 @@
               "RelativeToolTip": "Kanban.Board.Infrastructure\\Repositories\\GenericRepository.cs",
               "ViewState": "AQIAABAAAAAAAAAAAAAgwAQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T07:03:34.282Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T07:03:34.282Z"
             },
             {
               "$type": "Document",
@@ -798,8 +759,7 @@
               "RelativeToolTip": "Kanban.Board.Infrastructure\\Repositories\\CandidateRepisitory.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T07:03:15.077Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T07:03:15.077Z"
             },
             {
               "$type": "Document",
@@ -811,8 +771,7 @@
               "RelativeToolTip": "Kanban.Board.Infrastructure\\Repositories\\CandidateJobRelationRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T07:02:51.404Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T07:02:51.404Z"
             },
             {
               "$type": "Document",
@@ -824,8 +783,7 @@
               "RelativeToolTip": "Kanban.Board.Application\\Commands\\Candidates\\AddCandidateCommand.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T06:56:48.128Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T06:56:48.128Z"
             },
             {
               "$type": "Document",
@@ -837,8 +795,7 @@
               "RelativeToolTip": "Kanban.Board.Infrastructure\\Repositories\\CandidateInterviewerRelationRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T07:02:17.163Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T07:02:17.163Z"
             },
             {
               "$type": "Document",
@@ -850,8 +807,7 @@
               "RelativeToolTip": "Kanban.Board.Infrastructure\\UnitOfWorks\\UnitOfWork.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T07:01:53.348Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T07:01:53.348Z"
             },
             {
               "$type": "Document",
@@ -863,8 +819,7 @@
               "RelativeToolTip": "Kanban.Board.Infrastructure\\Persistence\\DatabaseContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T07:01:09.972Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T07:01:09.972Z"
             },
             {
               "$type": "Document",
@@ -876,8 +831,7 @@
               "RelativeToolTip": "Kanban.Board.Infrastructure\\UnitOfWorks\\IUnitOfWork.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T07:00:50.571Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T07:00:50.571Z"
             },
             {
               "$type": "Document",
@@ -889,8 +843,7 @@
               "RelativeToolTip": "Kanban.Board.Domain\\Interfaces\\IJobRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T06:59:42.088Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T06:59:42.088Z"
             },
             {
               "$type": "Document",
@@ -902,8 +855,7 @@
               "RelativeToolTip": "Kanban.Board.Domain\\Interfaces\\IInterviewerRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T06:58:47.694Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T06:58:47.694Z"
             },
             {
               "$type": "Document",
@@ -915,8 +867,7 @@
               "RelativeToolTip": "Kanban.Board.Domain\\Interfaces\\IGenericRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T06:57:52.816Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T06:57:52.816Z"
             },
             {
               "$type": "Document",
@@ -928,8 +879,7 @@
               "RelativeToolTip": "Kanban.Board.Domain\\Entities\\CandidateStatus.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T06:57:17.984Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T06:57:17.984Z"
             },
             {
               "$type": "Document",
@@ -941,8 +891,7 @@
               "RelativeToolTip": "Kanban.Board.Domain\\Interfaces\\ICandidateJobRelationRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T06:58:21.876Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T06:58:21.876Z"
             },
             {
               "$type": "Document",
@@ -954,8 +903,7 @@
               "RelativeToolTip": "Kanban.Board.Domain\\Entities\\CandidateJobRelation.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T06:57:26.812Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T06:57:26.812Z"
             },
             {
               "$type": "Document",
@@ -967,8 +915,7 @@
               "RelativeToolTip": "Kanban.Board.Domain\\Entities\\CandidateInterviewerRelation.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T06:57:30.556Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T06:57:30.556Z"
             },
             {
               "$type": "Document",
@@ -980,8 +927,7 @@
               "RelativeToolTip": "Kanban.Board.Domain\\Entities\\Candidate.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T06:57:04.801Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T06:57:04.801Z"
             },
             {
               "$type": "Document",
@@ -993,8 +939,7 @@
               "RelativeToolTip": "Kanban.Board.Domain\\Interfaces\\ICandidateRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T06:58:26.064Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T06:58:26.064Z"
             },
             {
               "$type": "Document",
@@ -1006,8 +951,7 @@
               "RelativeToolTip": "Kanban.Board.Domain\\Entities\\Interviewer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T06:57:36.54Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T06:57:36.54Z"
             },
             {
               "$type": "Document",
@@ -1019,8 +963,7 @@
               "RelativeToolTip": "Kanban.Board.Domain\\Entities\\Job.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T06:57:40.639Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T06:57:40.639Z"
             },
             {
               "$type": "Document",
@@ -1032,21 +975,19 @@
               "RelativeToolTip": "Kanban.Board.Domain\\Interfaces\\ICandidateInterviewerRelationRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T06:57:48.024Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T06:57:48.024Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 59,
-              "Title": "Kanban.Board.Infrastructure",
+              "Title": "Kanban.Board.Infrastructure.csproj",
               "DocumentMoniker": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Infrastructure\\Kanban.Board.Infrastructure.csproj",
               "RelativeDocumentMoniker": "Kanban.Board.Infrastructure\\Kanban.Board.Infrastructure.csproj",
               "ToolTip": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Infrastructure\\Kanban.Board.Infrastructure.csproj",
               "RelativeToolTip": "Kanban.Board.Infrastructure\\Kanban.Board.Infrastructure.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-10T06:56:17.783Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T06:56:17.783Z"
             },
             {
               "$type": "Document",

@@ -19,15 +19,18 @@ To setup My SQL, you can follow two ways to setup:
 API
 ========
 This guide will show you how to set up API
-There are two ways to run the API:
 1. Run directly when your PC already have Visual Studio
     - First, you have to Restore Nuget Package (all of Nuget can be found in nuget.org page)
     - Then, please edit the ConnectionString in appsettings.json file to the server that you install the My Sql Server (if you install it in your local PC, it should be localhost)
     - Then you can fress F5 to run the project
     - If the API show the Swagger UI, it meen your setup is for API success
-2. Deploy it to IIS
-    - Setup IIS in your PC: https://community.lansweeper.com/t5/installation/install-iis-internet-information-services/ta-p/64422
-    - You need to download .net core 6 bundle. You can download and install in this link https://learn.microsoft.com/vi-vn/aspnet/core/host-and-deploy/iis/hosting-bundle?view=aspnetcore-6.0
-    - Go to src/CandidateBoard/src/API project, run dotnet build
+
+UI
+========
+This guide will show you how to set up UI
+    - First, open file src/UI/src/environments/environments.ts, update baseUrl API to  API in your local
+    - Then back to the src/ui, run npm i to install the node library
+        - If your PC don 't have node 18.13.0, please download it from https://nodejs.org/dist/v18.13.0/node-v18.13.0-x64.msi
+    - Then run npm run start to start the UI
 
 
