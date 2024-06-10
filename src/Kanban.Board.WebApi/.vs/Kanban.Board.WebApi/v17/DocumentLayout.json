@@ -1,0 +1,1089 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{13870B57-9F55-4F22-81CA-0B701B454C85}|Kanban.Board.WebApi\\Kanban.Board.WebApi.csproj|c:\\development\\mer\\candidateboard\\src\\kanban.board.webapi\\kanban.board.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{13870B57-9F55-4F22-81CA-0B701B454C85}|Kanban.Board.WebApi\\Kanban.Board.WebApi.csproj|solutionrelative:kanban.board.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13870B57-9F55-4F22-81CA-0B701B454C85}|Kanban.Board.WebApi\\Kanban.Board.WebApi.csproj|c:\\development\\mer\\candidateboard\\src\\kanban.board.webapi\\kanban.board.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13870B57-9F55-4F22-81CA-0B701B454C85}|Kanban.Board.WebApi\\Kanban.Board.WebApi.csproj|solutionrelative:kanban.board.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13870B57-9F55-4F22-81CA-0B701B454C85}|Kanban.Board.WebApi\\Kanban.Board.WebApi.csproj|c:\\development\\mer\\candidateboard\\src\\kanban.board.webapi\\kanban.board.webapi\\controllers\\jobcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13870B57-9F55-4F22-81CA-0B701B454C85}|Kanban.Board.WebApi\\Kanban.Board.WebApi.csproj|solutionrelative:kanban.board.webapi\\controllers\\jobcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13870B57-9F55-4F22-81CA-0B701B454C85}|Kanban.Board.WebApi\\Kanban.Board.WebApi.csproj|c:\\development\\mer\\candidateboard\\src\\kanban.board.webapi\\kanban.board.webapi\\controllers\\interviewercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13870B57-9F55-4F22-81CA-0B701B454C85}|Kanban.Board.WebApi\\Kanban.Board.WebApi.csproj|solutionrelative:kanban.board.webapi\\controllers\\interviewercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13870B57-9F55-4F22-81CA-0B701B454C85}|Kanban.Board.WebApi\\Kanban.Board.WebApi.csproj|c:\\development\\mer\\candidateboard\\src\\kanban.board.webapi\\kanban.board.webapi\\controllers\\candidatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13870B57-9F55-4F22-81CA-0B701B454C85}|Kanban.Board.WebApi\\Kanban.Board.WebApi.csproj|solutionrelative:kanban.board.webapi\\controllers\\candidatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DA1015C-3524-4F5E-B0B5-6C0E48AE7A45}|Kanban.Board.Infrastructure\\Kanban.Board.Infrastructure.csproj|c:\\development\\mer\\candidateboard\\src\\kanban.board.webapi\\kanban.board.infrastructure\\migrations\\20240503154220_seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DA1015C-3524-4F5E-B0B5-6C0E48AE7A45}|Kanban.Board.Infrastructure\\Kanban.Board.Infrastructure.csproj|solutionrelative:kanban.board.infrastructure\\migrations\\20240503154220_seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DA1015C-3524-4F5E-B0B5-6C0E48AE7A45}|Kanban.Board.Infrastructure\\Kanban.Board.Infrastructure.csproj|c:\\development\\mer\\candidateboard\\src\\kanban.board.webapi\\kanban.board.infrastructure\\migrations\\20240503154220_seeddata.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DA1015C-3524-4F5E-B0B5-6C0E48AE7A45}|Kanban.Board.Infrastructure\\Kanban.Board.Infrastructure.csproj|solutionrelative:kanban.board.infrastructure\\migrations\\20240503154220_seeddata.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F7EFB78-7D4E-4F1B-A276-B9C6A5C4EE54}|Kanban.Board.Application\\Kanban.Board.Application.csproj|c:\\development\\mer\\candidateboard\\src\\kanban.board.webapi\\kanban.board.application\\validators\\candidates\\updatecandidatecommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F7EFB78-7D4E-4F1B-A276-B9C6A5C4EE54}|Kanban.Board.Application\\Kanban.Board.Application.csproj|solutionrelative:kanban.board.application\\validators\\candidates\\updatecandidatecommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F7EFB78-7D4E-4F1B-A276-B9C6A5C4EE54}|Kanban.Board.Application\\Kanban.Board.Application.csproj|c:\\development\\mer\\candidateboard\\src\\kanban.board.webapi\\kanban.board.application\\validators\\candidates\\addcandidatecommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F7EFB78-7D4E-4F1B-A276-B9C6A5C4EE54}|Kanban.Board.Application\\Kanban.Board.Application.csproj|solutionrelative:kanban.board.application\\validators\\candidates\\addcandidatecommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DA1015C-3524-4F5E-B0B5-6C0E48AE7A45}|Kanban.Board.Infrastructure\\Kanban.Board.Infrastructure.csproj|c:\\development\\mer\\candidateboard\\src\\kanban.board.webapi\\kanban.board.infrastructure\\migrations\\20240503154147_initialdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DA1015C-3524-4F5E-B0B5-6C0E48AE7A45}|Kanban.Board.Infrastructure\\Kanban.Board.Infrastructure.csproj|solutionrelative:kanban.board.infrastructure\\migrations\\20240503154147_initialdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DA1015C-3524-4F5E-B0B5-6C0E48AE7A45}|Kanban.Board.Infrastructure\\Kanban.Board.Infrastructure.csproj|c:\\development\\mer\\candidateboard\\src\\kanban.board.webapi\\kanban.board.infrastructure\\migrations\\20240503154147_initialdatabase.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DA1015C-3524-4F5E-B0B5-6C0E48AE7A45}|Kanban.Board.Infrastructure\\Kanban.Board.Infrastructure.csproj|solutionrelative:kanban.board.infrastructure\\migrations\\20240503154147_initialdatabase.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F7EFB78-7D4E-4F1B-A276-B9C6A5C4EE54}|Kanban.Board.Application\\Kanban.Board.Application.csproj|c:\\development\\mer\\candidateboard\\src\\kanban.board.webapi\\kanban.board.application\\validators\\jobs\\jobidvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F7EFB78-7D4E-4F1B-A276-B9C6A5C4EE54}|Kanban.Board.Application\\Kanban.Board.Application.csproj|solutionrelative:kanban.board.application\\validators\\jobs\\jobidvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F7EFB78-7D4E-4F1B-A276-B9C6A5C4EE54}|Kanban.Board.Application\\Kanban.Board.Application.csproj|c:\\development\\mer\\candidateboard\\src\\kanban.board.webapi\\kanban.board.application\\validators\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F7EFB78-7D4E-4F1B-A276-B9C6A5C4EE54}|Kanban.Board.Application\\Kanban.Board.Application.csproj|solutionrelative:kanban.board.application\\validators\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F7EFB78-7D4E-4F1B-A276-B9C6A5C4EE54}|Kanban.Board.Application\\Kanban.Board.Application.csproj|c:\\development\\mer\\candidateboard\\src\\kanban.board.webapi\\kanban.board.application\\validators\\interviewers\\intervieweridvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F7EFB78-7D4E-4F1B-A276-B9C6A5C4EE54}|Kanban.Board.Application\\Kanban.Board.Application.csproj|solutionrelative:kanban.board.application\\validators\\interviewers\\intervieweridvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DA1015C-3524-4F5E-B0B5-6C0E48AE7A45}|Kanban.Board.Infrastructure\\Kanban.Board.Infrastructure.csproj|c:\\development\\mer\\candidateboard\\src\\kanban.board.webapi\\kanban.board.infrastructure\\migrations\\databasecontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DA1015C-3524-4F5E-B0B5-6C0E48AE7A45}|Kanban.Board.Infrastructure\\Kanban.Board.Infrastructure.csproj|solutionrelative:kanban.board.infrastructure\\migrations\\databasecontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F7EFB78-7D4E-4F1B-A276-B9C6A5C4EE54}|Kanban.Board.Application\\Kanban.Board.Application.csproj|c:\\development\\mer\\candidateboard\\src\\kanban.board.webapi\\kanban.board.application\\commands\\candidates\\updatecandidatestatuscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F7EFB78-7D4E-4F1B-A276-B9C6A5C4EE54}|Kanban.Board.Application\\Kanban.Board.Application.csproj|solutionrelative:kanban.board.application\\commands\\candidates\\updatecandidatestatuscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F7EFB78-7D4E-4F1B-A276-B9C6A5C4EE54}|Kanban.Board.Application\\Kanban.Board.Application.csproj|c:\\development\\mer\\candidateboard\\src\\kanban.board.webapi\\kanban.board.application\\commands\\jobs\\addjobcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F7EFB78-7D4E-4F1B-A276-B9C6A5C4EE54}|Kanban.Board.Application\\Kanban.Board.Application.csproj|solutionrelative:kanban.board.application\\commands\\jobs\\addjobcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F7EFB78-7D4E-4F1B-A276-B9C6A5C4EE54}|Kanban.Board.Application\\Kanban.Board.Application.csproj|c:\\development\\mer\\candidateboard\\src\\kanban.board.webapi\\kanban.board.application\\mapper\\candidateprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F7EFB78-7D4E-4F1B-A276-B9C6A5C4EE54}|Kanban.Board.Application\\Kanban.Board.Application.csproj|solutionrelative:kanban.board.application\\mapper\\candidateprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F7EFB78-7D4E-4F1B-A276-B9C6A5C4EE54}|Kanban.Board.Application\\Kanban.Board.Application.csproj|c:\\development\\mer\\candidateboard\\src\\kanban.board.webapi\\kanban.board.application\\mapper\\interviewerprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F7EFB78-7D4E-4F1B-A276-B9C6A5C4EE54}|Kanban.Board.Application\\Kanban.Board.Application.csproj|solutionrelative:kanban.board.application\\mapper\\interviewerprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F7EFB78-7D4E-4F1B-A276-B9C6A5C4EE54}|Kanban.Board.Application\\Kanban.Board.Application.csproj|c:\\development\\mer\\candidateboard\\src\\kanban.board.webapi\\kanban.board.application\\mapper\\jobprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F7EFB78-7D4E-4F1B-A276-B9C6A5C4EE54}|Kanban.Board.Application\\Kanban.Board.Application.csproj|solutionrelative:kanban.board.application\\mapper\\jobprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F7EFB78-7D4E-4F1B-A276-B9C6A5C4EE54}|Kanban.Board.Application\\Kanban.Board.Application.csproj|c:\\development\\mer\\candidateboard\\src\\kanban.board.webapi\\kanban.board.application\\queries\\candidates\\getcandidatebyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F7EFB78-7D4E-4F1B-A276-B9C6A5C4EE54}|Kanban.Board.Application\\Kanban.Board.Application.csproj|solutionrelative:kanban.board.application\\queries\\candidates\\getcandidatebyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F7EFB78-7D4E-4F1B-A276-B9C6A5C4EE54}|Kanban.Board.Application\\Kanban.Board.Application.csproj|c:\\development\\mer\\candidateboard\\src\\kanban.board.webapi\\kanban.board.application\\queries\\candidates\\getcandidatebystatusquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F7EFB78-7D4E-4F1B-A276-B9C6A5C4EE54}|Kanban.Board.Application\\Kanban.Board.Application.csproj|solutionrelative:kanban.board.application\\queries\\candidates\\getcandidatebystatusquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F7EFB78-7D4E-4F1B-A276-B9C6A5C4EE54}|Kanban.Board.Application\\Kanban.Board.Application.csproj|c:\\development\\mer\\candidateboard\\src\\kanban.board.webapi\\kanban.board.application\\queries\\candidates\\getcandidatequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F7EFB78-7D4E-4F1B-A276-B9C6A5C4EE54}|Kanban.Board.Application\\Kanban.Board.Application.csproj|solutionrelative:kanban.board.application\\queries\\candidates\\getcandidatequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F7EFB78-7D4E-4F1B-A276-B9C6A5C4EE54}|Kanban.Board.Application\\Kanban.Board.Application.csproj|c:\\development\\mer\\candidateboard\\src\\kanban.board.webapi\\kanban.board.application\\queries\\candidates\\searchcandidatequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F7EFB78-7D4E-4F1B-A276-B9C6A5C4EE54}|Kanban.Board.Application\\Kanban.Board.Application.csproj|solutionrelative:kanban.board.application\\queries\\candidates\\searchcandidatequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F7EFB78-7D4E-4F1B-A276-B9C6A5C4EE54}|Kanban.Board.Application\\Kanban.Board.Application.csproj|c:\\development\\mer\\candidateboard\\src\\kanban.board.webapi\\kanban.board.application\\queries\\interviewers\\getinterviewerquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F7EFB78-7D4E-4F1B-A276-B9C6A5C4EE54}|Kanban.Board.Application\\Kanban.Board.Application.csproj|solutionrelative:kanban.board.application\\queries\\interviewers\\getinterviewerquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F7EFB78-7D4E-4F1B-A276-B9C6A5C4EE54}|Kanban.Board.Application\\Kanban.Board.Application.csproj|c:\\development\\mer\\candidateboard\\src\\kanban.board.webapi\\kanban.board.application\\queries\\jobs\\getjobsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F7EFB78-7D4E-4F1B-A276-B9C6A5C4EE54}|Kanban.Board.Application\\Kanban.Board.Application.csproj|solutionrelative:kanban.board.application\\queries\\jobs\\getjobsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13870B57-9F55-4F22-81CA-0B701B454C85}|Kanban.Board.WebApi\\Kanban.Board.WebApi.csproj|c:\\development\\mer\\candidateboard\\src\\kanban.board.webapi\\kanban.board.webapi\\kanban.board.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{13870B57-9F55-4F22-81CA-0B701B454C85}|Kanban.Board.WebApi\\Kanban.Board.WebApi.csproj|solutionrelative:kanban.board.webapi\\kanban.board.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F7EFB78-7D4E-4F1B-A276-B9C6A5C4EE54}|Kanban.Board.Application\\Kanban.Board.Application.csproj|c:\\development\\mer\\candidateboard\\src\\kanban.board.webapi\\kanban.board.application\\commands\\candidates\\updatecandidatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F7EFB78-7D4E-4F1B-A276-B9C6A5C4EE54}|Kanban.Board.Application\\Kanban.Board.Application.csproj|solutionrelative:kanban.board.application\\commands\\candidates\\updatecandidatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F7EFB78-7D4E-4F1B-A276-B9C6A5C4EE54}|Kanban.Board.Application\\Kanban.Board.Application.csproj|c:\\development\\mer\\candidateboard\\src\\kanban.board.webapi\\kanban.board.application\\dtos\\candidatemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F7EFB78-7D4E-4F1B-A276-B9C6A5C4EE54}|Kanban.Board.Application\\Kanban.Board.Application.csproj|solutionrelative:kanban.board.application\\dtos\\candidatemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F7EFB78-7D4E-4F1B-A276-B9C6A5C4EE54}|Kanban.Board.Application\\Kanban.Board.Application.csproj|c:\\development\\mer\\candidateboard\\src\\kanban.board.webapi\\kanban.board.application\\dtos\\updatecandidatestatusrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F7EFB78-7D4E-4F1B-A276-B9C6A5C4EE54}|Kanban.Board.Application\\Kanban.Board.Application.csproj|solutionrelative:kanban.board.application\\dtos\\updatecandidatestatusrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F7EFB78-7D4E-4F1B-A276-B9C6A5C4EE54}|Kanban.Board.Application\\Kanban.Board.Application.csproj|c:\\development\\mer\\candidateboard\\src\\kanban.board.webapi\\kanban.board.application\\dtos\\updatecandidaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F7EFB78-7D4E-4F1B-A276-B9C6A5C4EE54}|Kanban.Board.Application\\Kanban.Board.Application.csproj|solutionrelative:kanban.board.application\\dtos\\updatecandidaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F7EFB78-7D4E-4F1B-A276-B9C6A5C4EE54}|Kanban.Board.Application\\Kanban.Board.Application.csproj|c:\\development\\mer\\candidateboard\\src\\kanban.board.webapi\\kanban.board.application\\dtos\\searchcandidaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F7EFB78-7D4E-4F1B-A276-B9C6A5C4EE54}|Kanban.Board.Application\\Kanban.Board.Application.csproj|solutionrelative:kanban.board.application\\dtos\\searchcandidaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F7EFB78-7D4E-4F1B-A276-B9C6A5C4EE54}|Kanban.Board.Application\\Kanban.Board.Application.csproj|c:\\development\\mer\\candidateboard\\src\\kanban.board.webapi\\kanban.board.application\\dtos\\jobmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F7EFB78-7D4E-4F1B-A276-B9C6A5C4EE54}|Kanban.Board.Application\\Kanban.Board.Application.csproj|solutionrelative:kanban.board.application\\dtos\\jobmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F7EFB78-7D4E-4F1B-A276-B9C6A5C4EE54}|Kanban.Board.Application\\Kanban.Board.Application.csproj|c:\\development\\mer\\candidateboard\\src\\kanban.board.webapi\\kanban.board.application\\dtos\\interviewermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F7EFB78-7D4E-4F1B-A276-B9C6A5C4EE54}|Kanban.Board.Application\\Kanban.Board.Application.csproj|solutionrelative:kanban.board.application\\dtos\\interviewermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F7EFB78-7D4E-4F1B-A276-B9C6A5C4EE54}|Kanban.Board.Application\\Kanban.Board.Application.csproj|c:\\development\\mer\\candidateboard\\src\\kanban.board.webapi\\kanban.board.application\\dtos\\candidatestatusmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F7EFB78-7D4E-4F1B-A276-B9C6A5C4EE54}|Kanban.Board.Application\\Kanban.Board.Application.csproj|solutionrelative:kanban.board.application\\dtos\\candidatestatusmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F7EFB78-7D4E-4F1B-A276-B9C6A5C4EE54}|Kanban.Board.Application\\Kanban.Board.Application.csproj|c:\\development\\mer\\candidateboard\\src\\kanban.board.webapi\\kanban.board.application\\dtos\\candidatemodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F7EFB78-7D4E-4F1B-A276-B9C6A5C4EE54}|Kanban.Board.Application\\Kanban.Board.Application.csproj|solutionrelative:kanban.board.application\\dtos\\candidatemodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F7EFB78-7D4E-4F1B-A276-B9C6A5C4EE54}|Kanban.Board.Application\\Kanban.Board.Application.csproj|c:\\development\\mer\\candidateboard\\src\\kanban.board.webapi\\kanban.board.application\\dtos\\addcandidaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F7EFB78-7D4E-4F1B-A276-B9C6A5C4EE54}|Kanban.Board.Application\\Kanban.Board.Application.csproj|solutionrelative:kanban.board.application\\dtos\\addcandidaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F7EFB78-7D4E-4F1B-A276-B9C6A5C4EE54}|Kanban.Board.Application\\Kanban.Board.Application.csproj|c:\\development\\mer\\candidateboard\\src\\kanban.board.webapi\\kanban.board.application\\commands\\candidates\\addcandidatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F7EFB78-7D4E-4F1B-A276-B9C6A5C4EE54}|Kanban.Board.Application\\Kanban.Board.Application.csproj|solutionrelative:kanban.board.application\\commands\\candidates\\addcandidatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DA1015C-3524-4F5E-B0B5-6C0E48AE7A45}|Kanban.Board.Infrastructure\\Kanban.Board.Infrastructure.csproj|c:\\development\\mer\\candidateboard\\src\\kanban.board.webapi\\kanban.board.infrastructure\\repositories\\jobrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DA1015C-3524-4F5E-B0B5-6C0E48AE7A45}|Kanban.Board.Infrastructure\\Kanban.Board.Infrastructure.csproj|solutionrelative:kanban.board.infrastructure\\repositories\\jobrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DA1015C-3524-4F5E-B0B5-6C0E48AE7A45}|Kanban.Board.Infrastructure\\Kanban.Board.Infrastructure.csproj|c:\\development\\mer\\candidateboard\\src\\kanban.board.webapi\\kanban.board.infrastructure\\repositories\\interviewerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DA1015C-3524-4F5E-B0B5-6C0E48AE7A45}|Kanban.Board.Infrastructure\\Kanban.Board.Infrastructure.csproj|solutionrelative:kanban.board.infrastructure\\repositories\\interviewerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DA1015C-3524-4F5E-B0B5-6C0E48AE7A45}|Kanban.Board.Infrastructure\\Kanban.Board.Infrastructure.csproj|c:\\development\\mer\\candidateboard\\src\\kanban.board.webapi\\kanban.board.infrastructure\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DA1015C-3524-4F5E-B0B5-6C0E48AE7A45}|Kanban.Board.Infrastructure\\Kanban.Board.Infrastructure.csproj|solutionrelative:kanban.board.infrastructure\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DA1015C-3524-4F5E-B0B5-6C0E48AE7A45}|Kanban.Board.Infrastructure\\Kanban.Board.Infrastructure.csproj|c:\\development\\mer\\candidateboard\\src\\kanban.board.webapi\\kanban.board.infrastructure\\repositories\\candidaterepisitory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DA1015C-3524-4F5E-B0B5-6C0E48AE7A45}|Kanban.Board.Infrastructure\\Kanban.Board.Infrastructure.csproj|solutionrelative:kanban.board.infrastructure\\repositories\\candidaterepisitory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DA1015C-3524-4F5E-B0B5-6C0E48AE7A45}|Kanban.Board.Infrastructure\\Kanban.Board.Infrastructure.csproj|c:\\development\\mer\\candidateboard\\src\\kanban.board.webapi\\kanban.board.infrastructure\\repositories\\candidatejobrelationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DA1015C-3524-4F5E-B0B5-6C0E48AE7A45}|Kanban.Board.Infrastructure\\Kanban.Board.Infrastructure.csproj|solutionrelative:kanban.board.infrastructure\\repositories\\candidatejobrelationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DA1015C-3524-4F5E-B0B5-6C0E48AE7A45}|Kanban.Board.Infrastructure\\Kanban.Board.Infrastructure.csproj|c:\\development\\mer\\candidateboard\\src\\kanban.board.webapi\\kanban.board.infrastructure\\repositories\\candidateinterviewerrelationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DA1015C-3524-4F5E-B0B5-6C0E48AE7A45}|Kanban.Board.Infrastructure\\Kanban.Board.Infrastructure.csproj|solutionrelative:kanban.board.infrastructure\\repositories\\candidateinterviewerrelationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DA1015C-3524-4F5E-B0B5-6C0E48AE7A45}|Kanban.Board.Infrastructure\\Kanban.Board.Infrastructure.csproj|c:\\development\\mer\\candidateboard\\src\\kanban.board.webapi\\kanban.board.infrastructure\\unitofworks\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DA1015C-3524-4F5E-B0B5-6C0E48AE7A45}|Kanban.Board.Infrastructure\\Kanban.Board.Infrastructure.csproj|solutionrelative:kanban.board.infrastructure\\unitofworks\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DA1015C-3524-4F5E-B0B5-6C0E48AE7A45}|Kanban.Board.Infrastructure\\Kanban.Board.Infrastructure.csproj|c:\\development\\mer\\candidateboard\\src\\kanban.board.webapi\\kanban.board.infrastructure\\unitofworks\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DA1015C-3524-4F5E-B0B5-6C0E48AE7A45}|Kanban.Board.Infrastructure\\Kanban.Board.Infrastructure.csproj|solutionrelative:kanban.board.infrastructure\\unitofworks\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DA1015C-3524-4F5E-B0B5-6C0E48AE7A45}|Kanban.Board.Infrastructure\\Kanban.Board.Infrastructure.csproj|c:\\development\\mer\\candidateboard\\src\\kanban.board.webapi\\kanban.board.infrastructure\\persistence\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DA1015C-3524-4F5E-B0B5-6C0E48AE7A45}|Kanban.Board.Infrastructure\\Kanban.Board.Infrastructure.csproj|solutionrelative:kanban.board.infrastructure\\persistence\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03A5DCAB-643D-4B1B-AC28-9DCD3AB0A7BA}|Kanban.Board.Domain\\Kanban.Board.Domain.csproj|c:\\development\\mer\\candidateboard\\src\\kanban.board.webapi\\kanban.board.domain\\interfaces\\icandidatejobrelationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03A5DCAB-643D-4B1B-AC28-9DCD3AB0A7BA}|Kanban.Board.Domain\\Kanban.Board.Domain.csproj|solutionrelative:kanban.board.domain\\interfaces\\icandidatejobrelationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03A5DCAB-643D-4B1B-AC28-9DCD3AB0A7BA}|Kanban.Board.Domain\\Kanban.Board.Domain.csproj|c:\\development\\mer\\candidateboard\\src\\kanban.board.webapi\\kanban.board.domain\\interfaces\\ijobrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03A5DCAB-643D-4B1B-AC28-9DCD3AB0A7BA}|Kanban.Board.Domain\\Kanban.Board.Domain.csproj|solutionrelative:kanban.board.domain\\interfaces\\ijobrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03A5DCAB-643D-4B1B-AC28-9DCD3AB0A7BA}|Kanban.Board.Domain\\Kanban.Board.Domain.csproj|c:\\development\\mer\\candidateboard\\src\\kanban.board.webapi\\kanban.board.domain\\interfaces\\iinterviewerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03A5DCAB-643D-4B1B-AC28-9DCD3AB0A7BA}|Kanban.Board.Domain\\Kanban.Board.Domain.csproj|solutionrelative:kanban.board.domain\\interfaces\\iinterviewerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03A5DCAB-643D-4B1B-AC28-9DCD3AB0A7BA}|Kanban.Board.Domain\\Kanban.Board.Domain.csproj|c:\\development\\mer\\candidateboard\\src\\kanban.board.webapi\\kanban.board.domain\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03A5DCAB-643D-4B1B-AC28-9DCD3AB0A7BA}|Kanban.Board.Domain\\Kanban.Board.Domain.csproj|solutionrelative:kanban.board.domain\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03A5DCAB-643D-4B1B-AC28-9DCD3AB0A7BA}|Kanban.Board.Domain\\Kanban.Board.Domain.csproj|c:\\development\\mer\\candidateboard\\src\\kanban.board.webapi\\kanban.board.domain\\entities\\job.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03A5DCAB-643D-4B1B-AC28-9DCD3AB0A7BA}|Kanban.Board.Domain\\Kanban.Board.Domain.csproj|solutionrelative:kanban.board.domain\\entities\\job.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03A5DCAB-643D-4B1B-AC28-9DCD3AB0A7BA}|Kanban.Board.Domain\\Kanban.Board.Domain.csproj|c:\\development\\mer\\candidateboard\\src\\kanban.board.webapi\\kanban.board.domain\\entities\\interviewer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03A5DCAB-643D-4B1B-AC28-9DCD3AB0A7BA}|Kanban.Board.Domain\\Kanban.Board.Domain.csproj|solutionrelative:kanban.board.domain\\entities\\interviewer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03A5DCAB-643D-4B1B-AC28-9DCD3AB0A7BA}|Kanban.Board.Domain\\Kanban.Board.Domain.csproj|c:\\development\\mer\\candidateboard\\src\\kanban.board.webapi\\kanban.board.domain\\entities\\candidatestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03A5DCAB-643D-4B1B-AC28-9DCD3AB0A7BA}|Kanban.Board.Domain\\Kanban.Board.Domain.csproj|solutionrelative:kanban.board.domain\\entities\\candidatestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03A5DCAB-643D-4B1B-AC28-9DCD3AB0A7BA}|Kanban.Board.Domain\\Kanban.Board.Domain.csproj|c:\\development\\mer\\candidateboard\\src\\kanban.board.webapi\\kanban.board.domain\\entities\\candidatejobrelation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03A5DCAB-643D-4B1B-AC28-9DCD3AB0A7BA}|Kanban.Board.Domain\\Kanban.Board.Domain.csproj|solutionrelative:kanban.board.domain\\entities\\candidatejobrelation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03A5DCAB-643D-4B1B-AC28-9DCD3AB0A7BA}|Kanban.Board.Domain\\Kanban.Board.Domain.csproj|c:\\development\\mer\\candidateboard\\src\\kanban.board.webapi\\kanban.board.domain\\entities\\candidateinterviewerrelation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03A5DCAB-643D-4B1B-AC28-9DCD3AB0A7BA}|Kanban.Board.Domain\\Kanban.Board.Domain.csproj|solutionrelative:kanban.board.domain\\entities\\candidateinterviewerrelation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03A5DCAB-643D-4B1B-AC28-9DCD3AB0A7BA}|Kanban.Board.Domain\\Kanban.Board.Domain.csproj|c:\\development\\mer\\candidateboard\\src\\kanban.board.webapi\\kanban.board.domain\\entities\\candidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03A5DCAB-643D-4B1B-AC28-9DCD3AB0A7BA}|Kanban.Board.Domain\\Kanban.Board.Domain.csproj|solutionrelative:kanban.board.domain\\entities\\candidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03A5DCAB-643D-4B1B-AC28-9DCD3AB0A7BA}|Kanban.Board.Domain\\Kanban.Board.Domain.csproj|c:\\development\\mer\\candidateboard\\src\\kanban.board.webapi\\kanban.board.domain\\interfaces\\icandidaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03A5DCAB-643D-4B1B-AC28-9DCD3AB0A7BA}|Kanban.Board.Domain\\Kanban.Board.Domain.csproj|solutionrelative:kanban.board.domain\\interfaces\\icandidaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03A5DCAB-643D-4B1B-AC28-9DCD3AB0A7BA}|Kanban.Board.Domain\\Kanban.Board.Domain.csproj|c:\\development\\mer\\candidateboard\\src\\kanban.board.webapi\\kanban.board.domain\\interfaces\\icandidateinterviewerrelationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03A5DCAB-643D-4B1B-AC28-9DCD3AB0A7BA}|Kanban.Board.Domain\\Kanban.Board.Domain.csproj|solutionrelative:kanban.board.domain\\interfaces\\icandidateinterviewerrelationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DA1015C-3524-4F5E-B0B5-6C0E48AE7A45}|Kanban.Board.Infrastructure\\Kanban.Board.Infrastructure.csproj|c:\\development\\mer\\candidateboard\\src\\kanban.board.webapi\\kanban.board.infrastructure\\kanban.board.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6DA1015C-3524-4F5E-B0B5-6C0E48AE7A45}|Kanban.Board.Infrastructure\\Kanban.Board.Infrastructure.csproj|solutionrelative:kanban.board.infrastructure\\kanban.board.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Mercu.Kanban.Application\\Kanban.Board.Application.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Mercu.Kanban.Application\\Kanban.Board.Application.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Mercu.Kanban.WebApi\\Kanban.Board.WebApi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Mercu.Kanban.WebApi\\Kanban.Board.WebApi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Mercu.Kanban.WebApi\\Controllers\\BaseController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Mercu.Kanban.WebApi\\Controllers\\BaseController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.WebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "Kanban.Board.WebApi\\appsettings.json",
+              "ToolTip": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.WebApi\\appsettings.json",
+              "RelativeToolTip": "Kanban.Board.WebApi\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-10T07:15:03.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "Kanban.Board.WebApi\\Program.cs",
+              "ToolTip": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.WebApi\\Program.cs",
+              "RelativeToolTip": "Kanban.Board.WebApi\\Program.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAArwDkAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T07:13:19.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "JobController.cs",
+              "DocumentMoniker": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.WebApi\\Controllers\\JobController.cs",
+              "RelativeDocumentMoniker": "Kanban.Board.WebApi\\Controllers\\JobController.cs",
+              "ToolTip": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.WebApi\\Controllers\\JobController.cs",
+              "RelativeToolTip": "Kanban.Board.WebApi\\Controllers\\JobController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T07:13:13.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InterviewerController.cs",
+              "DocumentMoniker": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.WebApi\\Controllers\\InterviewerController.cs",
+              "RelativeDocumentMoniker": "Kanban.Board.WebApi\\Controllers\\InterviewerController.cs",
+              "ToolTip": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.WebApi\\Controllers\\InterviewerController.cs",
+              "RelativeToolTip": "Kanban.Board.WebApi\\Controllers\\InterviewerController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T07:13:06.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CandidateController.cs",
+              "DocumentMoniker": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.WebApi\\Controllers\\CandidateController.cs",
+              "RelativeDocumentMoniker": "Kanban.Board.WebApi\\Controllers\\CandidateController.cs",
+              "ToolTip": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.WebApi\\Controllers\\CandidateController.cs",
+              "RelativeToolTip": "Kanban.Board.WebApi\\Controllers\\CandidateController.cs",
+              "ViewState": "AQIAAG4AAAAAAAAAAAAuwAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T07:12:52.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20240503154220_SeedData.cs",
+              "DocumentMoniker": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Infrastructure\\Migrations\\20240503154220_SeedData.cs",
+              "RelativeDocumentMoniker": "Kanban.Board.Infrastructure\\Migrations\\20240503154220_SeedData.cs",
+              "ToolTip": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Infrastructure\\Migrations\\20240503154220_SeedData.cs",
+              "RelativeToolTip": "Kanban.Board.Infrastructure\\Migrations\\20240503154220_SeedData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T07:12:30.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UpdateCandidateCommandValidator.cs",
+              "DocumentMoniker": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Application\\Validators\\Candidates\\UpdateCandidateCommandValidator.cs",
+              "RelativeDocumentMoniker": "Kanban.Board.Application\\Validators\\Candidates\\UpdateCandidateCommandValidator.cs",
+              "ToolTip": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Application\\Validators\\Candidates\\UpdateCandidateCommandValidator.cs",
+              "RelativeToolTip": "Kanban.Board.Application\\Validators\\Candidates\\UpdateCandidateCommandValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T07:12:19.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20240503154147_InitialDatabase.cs",
+              "DocumentMoniker": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Infrastructure\\Migrations\\20240503154147_InitialDatabase.cs",
+              "RelativeDocumentMoniker": "Kanban.Board.Infrastructure\\Migrations\\20240503154147_InitialDatabase.cs",
+              "ToolTip": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Infrastructure\\Migrations\\20240503154147_InitialDatabase.cs",
+              "RelativeToolTip": "Kanban.Board.Infrastructure\\Migrations\\20240503154147_InitialDatabase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T07:11:56.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "JobIdValidator.cs",
+              "DocumentMoniker": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Application\\Validators\\Jobs\\JobIdValidator.cs",
+              "RelativeDocumentMoniker": "Kanban.Board.Application\\Validators\\Jobs\\JobIdValidator.cs",
+              "ToolTip": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Application\\Validators\\Jobs\\JobIdValidator.cs",
+              "RelativeToolTip": "Kanban.Board.Application\\Validators\\Jobs\\JobIdValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T07:11:43.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ValidationBehavior.cs",
+              "DocumentMoniker": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Application\\Validators\\ValidationBehavior.cs",
+              "RelativeDocumentMoniker": "Kanban.Board.Application\\Validators\\ValidationBehavior.cs",
+              "ToolTip": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Application\\Validators\\ValidationBehavior.cs",
+              "RelativeToolTip": "Kanban.Board.Application\\Validators\\ValidationBehavior.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T07:11:30.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "InterviewerIdValidator.cs",
+              "DocumentMoniker": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Application\\Validators\\Interviewers\\InterviewerIdValidator.cs",
+              "RelativeDocumentMoniker": "Kanban.Board.Application\\Validators\\Interviewers\\InterviewerIdValidator.cs",
+              "ToolTip": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Application\\Validators\\Interviewers\\InterviewerIdValidator.cs",
+              "RelativeToolTip": "Kanban.Board.Application\\Validators\\Interviewers\\InterviewerIdValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T07:11:20.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AddCandidateCommandValidator.cs",
+              "DocumentMoniker": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Application\\Validators\\Candidates\\AddCandidateCommandValidator.cs",
+              "RelativeDocumentMoniker": "Kanban.Board.Application\\Validators\\Candidates\\AddCandidateCommandValidator.cs",
+              "ToolTip": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Application\\Validators\\Candidates\\AddCandidateCommandValidator.cs",
+              "RelativeToolTip": "Kanban.Board.Application\\Validators\\Candidates\\AddCandidateCommandValidator.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAgwAkAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T07:10:53.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20240503154220_SeedData.Designer.cs",
+              "DocumentMoniker": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Infrastructure\\Migrations\\20240503154220_SeedData.Designer.cs",
+              "RelativeDocumentMoniker": "Kanban.Board.Infrastructure\\Migrations\\20240503154220_SeedData.Designer.cs",
+              "ToolTip": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Infrastructure\\Migrations\\20240503154220_SeedData.Designer.cs",
+              "RelativeToolTip": "Kanban.Board.Infrastructure\\Migrations\\20240503154220_SeedData.Designer.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAADwvxAAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T07:10:33.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DatabaseContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Infrastructure\\Migrations\\DatabaseContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Kanban.Board.Infrastructure\\Migrations\\DatabaseContextModelSnapshot.cs",
+              "ToolTip": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Infrastructure\\Migrations\\DatabaseContextModelSnapshot.cs",
+              "RelativeToolTip": "Kanban.Board.Infrastructure\\Migrations\\DatabaseContextModelSnapshot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T07:10:46.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20240503154147_InitialDatabase.Designer.cs",
+              "DocumentMoniker": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Infrastructure\\Migrations\\20240503154147_InitialDatabase.Designer.cs",
+              "RelativeDocumentMoniker": "Kanban.Board.Infrastructure\\Migrations\\20240503154147_InitialDatabase.Designer.cs",
+              "ToolTip": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Infrastructure\\Migrations\\20240503154147_InitialDatabase.Designer.cs",
+              "RelativeToolTip": "Kanban.Board.Infrastructure\\Migrations\\20240503154147_InitialDatabase.Designer.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAADwvxAAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T07:10:17.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UpdateCandidateStatusCommand.cs",
+              "DocumentMoniker": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Application\\Commands\\Candidates\\UpdateCandidateStatusCommand.cs",
+              "RelativeDocumentMoniker": "Kanban.Board.Application\\Commands\\Candidates\\UpdateCandidateStatusCommand.cs",
+              "ToolTip": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Application\\Commands\\Candidates\\UpdateCandidateStatusCommand.cs",
+              "RelativeToolTip": "Kanban.Board.Application\\Commands\\Candidates\\UpdateCandidateStatusCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T07:10:04.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AddJobCommand.cs",
+              "DocumentMoniker": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Application\\Commands\\Jobs\\AddJobCommand.cs",
+              "RelativeDocumentMoniker": "Kanban.Board.Application\\Commands\\Jobs\\AddJobCommand.cs",
+              "ToolTip": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Application\\Commands\\Jobs\\AddJobCommand.cs",
+              "RelativeToolTip": "Kanban.Board.Application\\Commands\\Jobs\\AddJobCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T07:09:58.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CandidateProfile.cs",
+              "DocumentMoniker": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Application\\Mapper\\CandidateProfile.cs",
+              "RelativeDocumentMoniker": "Kanban.Board.Application\\Mapper\\CandidateProfile.cs",
+              "ToolTip": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Application\\Mapper\\CandidateProfile.cs",
+              "RelativeToolTip": "Kanban.Board.Application\\Mapper\\CandidateProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T07:09:53.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "InterviewerProfile.cs",
+              "DocumentMoniker": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Application\\Mapper\\InterviewerProfile.cs",
+              "RelativeDocumentMoniker": "Kanban.Board.Application\\Mapper\\InterviewerProfile.cs",
+              "ToolTip": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Application\\Mapper\\InterviewerProfile.cs",
+              "RelativeToolTip": "Kanban.Board.Application\\Mapper\\InterviewerProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T07:09:44.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "JobProfile.cs",
+              "DocumentMoniker": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Application\\Mapper\\JobProfile.cs",
+              "RelativeDocumentMoniker": "Kanban.Board.Application\\Mapper\\JobProfile.cs",
+              "ToolTip": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Application\\Mapper\\JobProfile.cs",
+              "RelativeToolTip": "Kanban.Board.Application\\Mapper\\JobProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T07:09:30.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "GetCandidateByIdQuery.cs",
+              "DocumentMoniker": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Application\\Queries\\Candidates\\GetCandidateByIdQuery.cs",
+              "RelativeDocumentMoniker": "Kanban.Board.Application\\Queries\\Candidates\\GetCandidateByIdQuery.cs",
+              "ToolTip": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Application\\Queries\\Candidates\\GetCandidateByIdQuery.cs",
+              "RelativeToolTip": "Kanban.Board.Application\\Queries\\Candidates\\GetCandidateByIdQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T07:09:21.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "GetCandidateByStatusQuery.cs",
+              "DocumentMoniker": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Application\\Queries\\Candidates\\GetCandidateByStatusQuery.cs",
+              "RelativeDocumentMoniker": "Kanban.Board.Application\\Queries\\Candidates\\GetCandidateByStatusQuery.cs",
+              "ToolTip": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Application\\Queries\\Candidates\\GetCandidateByStatusQuery.cs",
+              "RelativeToolTip": "Kanban.Board.Application\\Queries\\Candidates\\GetCandidateByStatusQuery.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T07:09:12.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "GetCandidateQuery.cs",
+              "DocumentMoniker": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Application\\Queries\\Candidates\\GetCandidateQuery.cs",
+              "RelativeDocumentMoniker": "Kanban.Board.Application\\Queries\\Candidates\\GetCandidateQuery.cs",
+              "ToolTip": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Application\\Queries\\Candidates\\GetCandidateQuery.cs",
+              "RelativeToolTip": "Kanban.Board.Application\\Queries\\Candidates\\GetCandidateQuery.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAwwAsAAABqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T07:09:03.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "SearchCandidateQuery.cs",
+              "DocumentMoniker": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Application\\Queries\\Candidates\\SearchCandidateQuery.cs",
+              "RelativeDocumentMoniker": "Kanban.Board.Application\\Queries\\Candidates\\SearchCandidateQuery.cs",
+              "ToolTip": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Application\\Queries\\Candidates\\SearchCandidateQuery.cs",
+              "RelativeToolTip": "Kanban.Board.Application\\Queries\\Candidates\\SearchCandidateQuery.cs",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAwwAkAAABwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T07:08:44.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "GetInterviewerQuery.cs",
+              "DocumentMoniker": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Application\\Queries\\Interviewers\\GetInterviewerQuery.cs",
+              "RelativeDocumentMoniker": "Kanban.Board.Application\\Queries\\Interviewers\\GetInterviewerQuery.cs",
+              "ToolTip": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Application\\Queries\\Interviewers\\GetInterviewerQuery.cs",
+              "RelativeToolTip": "Kanban.Board.Application\\Queries\\Interviewers\\GetInterviewerQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T07:08:06.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "GetJobsQuery.cs",
+              "DocumentMoniker": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Application\\Queries\\Jobs\\GetJobsQuery.cs",
+              "RelativeDocumentMoniker": "Kanban.Board.Application\\Queries\\Jobs\\GetJobsQuery.cs",
+              "ToolTip": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Application\\Queries\\Jobs\\GetJobsQuery.cs",
+              "RelativeToolTip": "Kanban.Board.Application\\Queries\\Jobs\\GetJobsQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T07:07:49.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Kanban.Board.WebApi",
+              "DocumentMoniker": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.WebApi\\Kanban.Board.WebApi.csproj",
+              "RelativeDocumentMoniker": "Kanban.Board.WebApi\\Kanban.Board.WebApi.csproj",
+              "ToolTip": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.WebApi\\Kanban.Board.WebApi.csproj",
+              "RelativeToolTip": "Kanban.Board.WebApi\\Kanban.Board.WebApi.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-10T07:07:28.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UpdateCandidateStatusRequest.cs",
+              "DocumentMoniker": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Application\\DTOS\\UpdateCandidateStatusRequest.cs",
+              "RelativeDocumentMoniker": "Kanban.Board.Application\\DTOS\\UpdateCandidateStatusRequest.cs",
+              "ToolTip": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Application\\DTOS\\UpdateCandidateStatusRequest.cs",
+              "RelativeToolTip": "Kanban.Board.Application\\DTOS\\UpdateCandidateStatusRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T07:06:52.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UpdateCandidateRequest.cs",
+              "DocumentMoniker": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Application\\DTOS\\UpdateCandidateRequest.cs",
+              "RelativeDocumentMoniker": "Kanban.Board.Application\\DTOS\\UpdateCandidateRequest.cs",
+              "ToolTip": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Application\\DTOS\\UpdateCandidateRequest.cs",
+              "RelativeToolTip": "Kanban.Board.Application\\DTOS\\UpdateCandidateRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T07:06:47.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "SearchCandidateRequest.cs",
+              "DocumentMoniker": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Application\\DTOS\\SearchCandidateRequest.cs",
+              "RelativeDocumentMoniker": "Kanban.Board.Application\\DTOS\\SearchCandidateRequest.cs",
+              "ToolTip": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Application\\DTOS\\SearchCandidateRequest.cs",
+              "RelativeToolTip": "Kanban.Board.Application\\DTOS\\SearchCandidateRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T07:06:42.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "JobModel.cs",
+              "DocumentMoniker": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Application\\DTOS\\JobModel.cs",
+              "RelativeDocumentMoniker": "Kanban.Board.Application\\DTOS\\JobModel.cs",
+              "ToolTip": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Application\\DTOS\\JobModel.cs",
+              "RelativeToolTip": "Kanban.Board.Application\\DTOS\\JobModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T07:06:34.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "InterviewerModel.cs",
+              "DocumentMoniker": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Application\\DTOS\\InterviewerModel.cs",
+              "RelativeDocumentMoniker": "Kanban.Board.Application\\DTOS\\InterviewerModel.cs",
+              "ToolTip": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Application\\DTOS\\InterviewerModel.cs",
+              "RelativeToolTip": "Kanban.Board.Application\\DTOS\\InterviewerModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T07:06:25.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CandidateModel.cs",
+              "DocumentMoniker": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Application\\DTOS\\CandidateModel.cs",
+              "RelativeDocumentMoniker": "Kanban.Board.Application\\DTOS\\CandidateModel.cs",
+              "ToolTip": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Application\\DTOS\\CandidateModel.cs",
+              "RelativeToolTip": "Kanban.Board.Application\\DTOS\\CandidateModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T07:05:48.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UpdateCandidateCommand.cs",
+              "DocumentMoniker": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Application\\Commands\\Candidates\\UpdateCandidateCommand.cs",
+              "RelativeDocumentMoniker": "Kanban.Board.Application\\Commands\\Candidates\\UpdateCandidateCommand.cs",
+              "ToolTip": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Application\\Commands\\Candidates\\UpdateCandidateCommand.cs",
+              "RelativeToolTip": "Kanban.Board.Application\\Commands\\Candidates\\UpdateCandidateCommand.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAIwA8AAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T06:57:00.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "CandidateStatusModel.cs",
+              "DocumentMoniker": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Application\\DTOS\\CandidateStatusModel.cs",
+              "RelativeDocumentMoniker": "Kanban.Board.Application\\DTOS\\CandidateStatusModel.cs",
+              "ToolTip": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Application\\DTOS\\CandidateStatusModel.cs",
+              "RelativeToolTip": "Kanban.Board.Application\\DTOS\\CandidateStatusModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T07:06:15.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "CandidateModelBase.cs",
+              "DocumentMoniker": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Application\\DTOS\\CandidateModelBase.cs",
+              "RelativeDocumentMoniker": "Kanban.Board.Application\\DTOS\\CandidateModelBase.cs",
+              "ToolTip": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Application\\DTOS\\CandidateModelBase.cs",
+              "RelativeToolTip": "Kanban.Board.Application\\DTOS\\CandidateModelBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T07:06:06.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "AddCandidateRequest.cs",
+              "DocumentMoniker": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Application\\DTOS\\AddCandidateRequest.cs",
+              "RelativeDocumentMoniker": "Kanban.Board.Application\\DTOS\\AddCandidateRequest.cs",
+              "ToolTip": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Application\\DTOS\\AddCandidateRequest.cs",
+              "RelativeToolTip": "Kanban.Board.Application\\DTOS\\AddCandidateRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T07:05:33.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "JobRepository.cs",
+              "DocumentMoniker": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Infrastructure\\Repositories\\JobRepository.cs",
+              "RelativeDocumentMoniker": "Kanban.Board.Infrastructure\\Repositories\\JobRepository.cs",
+              "ToolTip": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Infrastructure\\Repositories\\JobRepository.cs",
+              "RelativeToolTip": "Kanban.Board.Infrastructure\\Repositories\\JobRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T07:04:00.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "InterviewerRepository.cs",
+              "DocumentMoniker": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Infrastructure\\Repositories\\InterviewerRepository.cs",
+              "RelativeDocumentMoniker": "Kanban.Board.Infrastructure\\Repositories\\InterviewerRepository.cs",
+              "ToolTip": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Infrastructure\\Repositories\\InterviewerRepository.cs",
+              "RelativeToolTip": "Kanban.Board.Infrastructure\\Repositories\\InterviewerRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T07:03:47.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Infrastructure\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "Kanban.Board.Infrastructure\\Repositories\\GenericRepository.cs",
+              "ToolTip": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Infrastructure\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "Kanban.Board.Infrastructure\\Repositories\\GenericRepository.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T07:03:34.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "CandidateRepisitory.cs",
+              "DocumentMoniker": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Infrastructure\\Repositories\\CandidateRepisitory.cs",
+              "RelativeDocumentMoniker": "Kanban.Board.Infrastructure\\Repositories\\CandidateRepisitory.cs",
+              "ToolTip": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Infrastructure\\Repositories\\CandidateRepisitory.cs",
+              "RelativeToolTip": "Kanban.Board.Infrastructure\\Repositories\\CandidateRepisitory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T07:03:15.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "CandidateJobRelationRepository.cs",
+              "DocumentMoniker": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Infrastructure\\Repositories\\CandidateJobRelationRepository.cs",
+              "RelativeDocumentMoniker": "Kanban.Board.Infrastructure\\Repositories\\CandidateJobRelationRepository.cs",
+              "ToolTip": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Infrastructure\\Repositories\\CandidateJobRelationRepository.cs",
+              "RelativeToolTip": "Kanban.Board.Infrastructure\\Repositories\\CandidateJobRelationRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T07:02:51.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "AddCandidateCommand.cs",
+              "DocumentMoniker": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Application\\Commands\\Candidates\\AddCandidateCommand.cs",
+              "RelativeDocumentMoniker": "Kanban.Board.Application\\Commands\\Candidates\\AddCandidateCommand.cs",
+              "ToolTip": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Application\\Commands\\Candidates\\AddCandidateCommand.cs",
+              "RelativeToolTip": "Kanban.Board.Application\\Commands\\Candidates\\AddCandidateCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T06:56:48.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "CandidateInterviewerRelationRepository.cs",
+              "DocumentMoniker": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Infrastructure\\Repositories\\CandidateInterviewerRelationRepository.cs",
+              "RelativeDocumentMoniker": "Kanban.Board.Infrastructure\\Repositories\\CandidateInterviewerRelationRepository.cs",
+              "ToolTip": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Infrastructure\\Repositories\\CandidateInterviewerRelationRepository.cs",
+              "RelativeToolTip": "Kanban.Board.Infrastructure\\Repositories\\CandidateInterviewerRelationRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T07:02:17.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Infrastructure\\UnitOfWorks\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "Kanban.Board.Infrastructure\\UnitOfWorks\\UnitOfWork.cs",
+              "ToolTip": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Infrastructure\\UnitOfWorks\\UnitOfWork.cs",
+              "RelativeToolTip": "Kanban.Board.Infrastructure\\UnitOfWorks\\UnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T07:01:53.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "DatabaseContext.cs",
+              "DocumentMoniker": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Infrastructure\\Persistence\\DatabaseContext.cs",
+              "RelativeDocumentMoniker": "Kanban.Board.Infrastructure\\Persistence\\DatabaseContext.cs",
+              "ToolTip": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Infrastructure\\Persistence\\DatabaseContext.cs",
+              "RelativeToolTip": "Kanban.Board.Infrastructure\\Persistence\\DatabaseContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T07:01:09.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Infrastructure\\UnitOfWorks\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "Kanban.Board.Infrastructure\\UnitOfWorks\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Infrastructure\\UnitOfWorks\\IUnitOfWork.cs",
+              "RelativeToolTip": "Kanban.Board.Infrastructure\\UnitOfWorks\\IUnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T07:00:50.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "IJobRepository.cs",
+              "DocumentMoniker": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Domain\\Interfaces\\IJobRepository.cs",
+              "RelativeDocumentMoniker": "Kanban.Board.Domain\\Interfaces\\IJobRepository.cs",
+              "ToolTip": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Domain\\Interfaces\\IJobRepository.cs",
+              "RelativeToolTip": "Kanban.Board.Domain\\Interfaces\\IJobRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T06:59:42.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "IInterviewerRepository.cs",
+              "DocumentMoniker": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Domain\\Interfaces\\IInterviewerRepository.cs",
+              "RelativeDocumentMoniker": "Kanban.Board.Domain\\Interfaces\\IInterviewerRepository.cs",
+              "ToolTip": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Domain\\Interfaces\\IInterviewerRepository.cs",
+              "RelativeToolTip": "Kanban.Board.Domain\\Interfaces\\IInterviewerRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T06:58:47.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Domain\\Interfaces\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "Kanban.Board.Domain\\Interfaces\\IGenericRepository.cs",
+              "ToolTip": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Domain\\Interfaces\\IGenericRepository.cs",
+              "RelativeToolTip": "Kanban.Board.Domain\\Interfaces\\IGenericRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T06:57:52.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "CandidateStatus.cs",
+              "DocumentMoniker": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Domain\\Entities\\CandidateStatus.cs",
+              "RelativeDocumentMoniker": "Kanban.Board.Domain\\Entities\\CandidateStatus.cs",
+              "ToolTip": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Domain\\Entities\\CandidateStatus.cs",
+              "RelativeToolTip": "Kanban.Board.Domain\\Entities\\CandidateStatus.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T06:57:17.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ICandidateJobRelationRepository.cs",
+              "DocumentMoniker": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Domain\\Interfaces\\ICandidateJobRelationRepository.cs",
+              "RelativeDocumentMoniker": "Kanban.Board.Domain\\Interfaces\\ICandidateJobRelationRepository.cs",
+              "ToolTip": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Domain\\Interfaces\\ICandidateJobRelationRepository.cs",
+              "RelativeToolTip": "Kanban.Board.Domain\\Interfaces\\ICandidateJobRelationRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T06:58:21.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "CandidateJobRelation.cs",
+              "DocumentMoniker": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Domain\\Entities\\CandidateJobRelation.cs",
+              "RelativeDocumentMoniker": "Kanban.Board.Domain\\Entities\\CandidateJobRelation.cs",
+              "ToolTip": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Domain\\Entities\\CandidateJobRelation.cs",
+              "RelativeToolTip": "Kanban.Board.Domain\\Entities\\CandidateJobRelation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T06:57:26.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "CandidateInterviewerRelation.cs",
+              "DocumentMoniker": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Domain\\Entities\\CandidateInterviewerRelation.cs",
+              "RelativeDocumentMoniker": "Kanban.Board.Domain\\Entities\\CandidateInterviewerRelation.cs",
+              "ToolTip": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Domain\\Entities\\CandidateInterviewerRelation.cs",
+              "RelativeToolTip": "Kanban.Board.Domain\\Entities\\CandidateInterviewerRelation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T06:57:30.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Candidate.cs",
+              "DocumentMoniker": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Domain\\Entities\\Candidate.cs",
+              "RelativeDocumentMoniker": "Kanban.Board.Domain\\Entities\\Candidate.cs",
+              "ToolTip": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Domain\\Entities\\Candidate.cs",
+              "RelativeToolTip": "Kanban.Board.Domain\\Entities\\Candidate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T06:57:04.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "ICandidateRepository.cs",
+              "DocumentMoniker": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Domain\\Interfaces\\ICandidateRepository.cs",
+              "RelativeDocumentMoniker": "Kanban.Board.Domain\\Interfaces\\ICandidateRepository.cs",
+              "ToolTip": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Domain\\Interfaces\\ICandidateRepository.cs",
+              "RelativeToolTip": "Kanban.Board.Domain\\Interfaces\\ICandidateRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T06:58:26.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Interviewer.cs",
+              "DocumentMoniker": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Domain\\Entities\\Interviewer.cs",
+              "RelativeDocumentMoniker": "Kanban.Board.Domain\\Entities\\Interviewer.cs",
+              "ToolTip": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Domain\\Entities\\Interviewer.cs",
+              "RelativeToolTip": "Kanban.Board.Domain\\Entities\\Interviewer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T06:57:36.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Job.cs",
+              "DocumentMoniker": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Domain\\Entities\\Job.cs",
+              "RelativeDocumentMoniker": "Kanban.Board.Domain\\Entities\\Job.cs",
+              "ToolTip": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Domain\\Entities\\Job.cs",
+              "RelativeToolTip": "Kanban.Board.Domain\\Entities\\Job.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T06:57:40.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "ICandidateInterviewerRelationRepository.cs",
+              "DocumentMoniker": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Domain\\Interfaces\\ICandidateInterviewerRelationRepository.cs",
+              "RelativeDocumentMoniker": "Kanban.Board.Domain\\Interfaces\\ICandidateInterviewerRelationRepository.cs",
+              "ToolTip": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Domain\\Interfaces\\ICandidateInterviewerRelationRepository.cs",
+              "RelativeToolTip": "Kanban.Board.Domain\\Interfaces\\ICandidateInterviewerRelationRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T06:57:48.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Kanban.Board.Infrastructure",
+              "DocumentMoniker": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Infrastructure\\Kanban.Board.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "Kanban.Board.Infrastructure\\Kanban.Board.Infrastructure.csproj",
+              "ToolTip": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Kanban.Board.Infrastructure\\Kanban.Board.Infrastructure.csproj",
+              "RelativeToolTip": "Kanban.Board.Infrastructure\\Kanban.Board.Infrastructure.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-10T06:56:17.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Kanban.Board.Application.csproj",
+              "DocumentMoniker": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Mercu.Kanban.Application\\Kanban.Board.Application.csproj",
+              "RelativeDocumentMoniker": "Mercu.Kanban.Application\\Kanban.Board.Application.csproj",
+              "ToolTip": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Mercu.Kanban.Application\\Kanban.Board.Application.csproj",
+              "RelativeToolTip": "Mercu.Kanban.Application\\Kanban.Board.Application.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-10T06:53:38.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Kanban.Board.WebApi.csproj",
+              "DocumentMoniker": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Mercu.Kanban.WebApi\\Kanban.Board.WebApi.csproj",
+              "RelativeDocumentMoniker": "Mercu.Kanban.WebApi\\Kanban.Board.WebApi.csproj",
+              "ToolTip": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Mercu.Kanban.WebApi\\Kanban.Board.WebApi.csproj",
+              "RelativeToolTip": "Mercu.Kanban.WebApi\\Kanban.Board.WebApi.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-10T06:52:06.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Mercu.Kanban.WebApi\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "Mercu.Kanban.WebApi\\Controllers\\BaseController.cs",
+              "ToolTip": "C:\\Development\\Mer\\CandidateBoard\\src\\Kanban.Board.WebApi\\Mercu.Kanban.WebApi\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "Mercu.Kanban.WebApi\\Controllers\\BaseController.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T06:52:28.707Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
