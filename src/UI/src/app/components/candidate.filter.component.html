@@ -6,14 +6,19 @@
                 >Candidate Name:</tui-input>
             </div>
             <div class="tui-form__multi-field">
-                <tui-input-date-range [max]="max"
-                [min]="min"
-                formControlName="appliedDate">Applied Date:
-                <input
-                    placeholder="From - To"
-                    tuiTextfield />
-                </tui-input-date-range>
+                <tui-input-date
+                formControlName="appliedFromDate"
+                tuiUnfinishedValidator="Finish filling the field">Applied From Date:
+                </tui-input-date>
             </div>
+
+            <div class="tui-form__multi-field">
+                <tui-input-date
+                formControlName="appliedToDate"
+                tuiUnfinishedValidator="Finish filling the field">Applied To Date:
+                </tui-input-date>
+            </div>
+          
             <div class="tui-form__multi-field">
                 <tui-multi-select
                 [editable] = "false"
@@ -36,25 +41,26 @@
                 </tui-multi-select>
             </div>
             <div class="tui-form__multi-field">
-                <button style="align-items: center;"
-                tuiButton
-                size="l"
-                tuiButton
-                type="submit"
-                class="tui-form__button"
-                >
-                    Filter
-                </button>
-
-                <button style="margin-left: 20px;"
-                tuiButton
-                size="l"
-                type="button"
-                (click)="onAddCandidateClick()"
-                >
-                    Add Candidate
-                </button>
-                
+                <div class="button-content">
+                    <button style="align-items: center;"
+                    tuiButton
+                    size="l"
+                    tuiButton
+                    type="submit"
+                    class="tui-form__button"
+                    >
+                        Filter
+                    </button>
+                    <button style="margin-left: 20px;"
+                    tuiButton
+                    size="l"
+                    type="button"
+                    (click)="onAddCandidateClick()"
+                    class="tui-form__button"
+                    >
+                        Add New
+                    </button>
+                </div>
             </div>
         </div>
 </form>

@@ -110,5 +110,19 @@ namespace Mercu.Kanban.WebApi.Controllers
                 return HandleProblemReturn(ex, nameof(UpdateCandidate));
             }
         }
+
+        [HttpPost("search")]
+        public async Task<IActionResult> SearchCandidate(SearchCandidateRequest searchCandidateRequest)
+        {
+            try
+            {
+                var result = await Mediator.Send(new SearchCandidateQuery(searchCandidateRequest));
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return HandleProblemReturn(ex, nameof(SearchCandidate));
+            }
+        }
     }
 }

@@ -8,7 +8,7 @@
     background-color: var(--tui-base-02);
     height: auto;
     margin:20px;
-    //grid-template-columns: auto auto auto auto;
+    min-height: 80vh;
 }
 
 .column-status {
@@ -16,7 +16,7 @@
     gap: 10px;
     grid-template-rows: auto;
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: repeat(4, minmax(200px, 1fr));
     min-height: 70vh;
 }
 .content {
@@ -46,5 +46,9 @@
 }
 
 .header {
+    text-align: center;
+}
+
+.no-data {
     text-align: center;
 }

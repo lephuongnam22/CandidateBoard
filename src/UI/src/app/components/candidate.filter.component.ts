@@ -1,7 +1,7 @@
 import { ChangeDetectionStrategy, Component, Injector, Inject, Output, EventEmitter, OnInit} from '@angular/core';
 import { FormGroup, FormControl,FormsModule,ReactiveFormsModule } from '@angular/forms';
 import {TuiDay, TuiDayRange} from '@taiga-ui/cdk';
-import {TuiInputDateRangeModule, TuiMultiSelectModule, TuiInputModule, TuiDataListWrapperModule} from '@taiga-ui/kit';
+import {TuiInputDateRangeModule, TuiMultiSelectModule, TuiInputModule, TuiDataListWrapperModule, TuiInputDateModule} from '@taiga-ui/kit';
 import {TuiContextWithImplicit, TuiStringHandler} from '@taiga-ui/cdk';
 import {TuiButtonModule, TuiDialogService, TuiDataListModule} from '@taiga-ui/core';
 import {InterviewerModel } from './models';
@@ -29,7 +29,8 @@ import { InterviewerService } from './services';
       TuiIconModule,
       TuiButtonModule,
       TuiDataListWrapperModule,
-      TuiDataListModule
+      TuiDataListModule,
+      TuiInputDateModule
 
       ],
       providers: [InterviewerService]
@@ -44,6 +45,7 @@ export class CandidateFilterComponent implements OnInit {
   interviewers: InterviewerModel[];
 
   @Output() onAddCandidate = new EventEmitter<any>();
+  @Output() onSearchCandidate = new EventEmitter<any>();
 
   ngOnInit() {
 
@@ -63,13 +65,10 @@ export class CandidateFilterComponent implements OnInit {
     { dismissible: true, label: 'Add Candidate' }
   );
 
-  readonly min = new TuiDay(2000, 2, 20);
- 
-  readonly max = new TuiDay(2040, 2, 20);
-
   filterForm = new FormGroup({
       candidateName: new FormControl(''),
-      appliedDate: new FormControl(new TuiDayRange(new TuiDay(2018, 2, 10), new TuiDay(2018, 3, 20))) ,
+      appliedFromDate: new FormControl(new TuiDay(2024, 1, 1)),
+      appliedToDate: new FormControl(new TuiDay(2024, 1, 1)),
       interviewerValue: new FormControl<any[] | null>(null),
       },
   );
@@ -78,7 +77,28 @@ export class CandidateFilterComponent implements OnInit {
       'name' in interviewer ? interviewer.name : interviewer.$implicit.name;
 
   submit() {
-    var filter = 
+    if(this.filterForm.controls.appliedFromDate.value && this.filterForm.controls.appliedToDate.value) {
+      if(this.filterForm.controls.appliedFromDate.value > this.filterForm.controls.appliedToDate.value) {
+        this.dialogService.open(`
+        <div>
+          Applied From Date cannot greater than Applied To Date.
+        </div>`, {label: 'Error', size: 's'})
+        .subscribe();
+
+        return;
+      }
+    }
+
+  
+    var searchRequest = {
+      candidateName: this.filterForm.controls.candidateName.value,
+      fromDate: this.filterForm.controls.appliedFromDate.value,
+      toDate: this.filterForm.controls.appliedToDate.value,
+      interviewerIds: this.filterForm.controls.interviewerValue.value 
+      ? this.filterForm.controls.interviewerValue.value.map(n => n.id) : []
+    }; 
+
+    this.onSearchCandidate.emit(searchRequest);
   }
 
   onAddCandidateClick() {

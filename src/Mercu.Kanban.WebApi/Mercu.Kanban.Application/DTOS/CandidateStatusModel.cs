@@ -6,6 +6,6 @@ namespace Mercu.Kanban.Application.DTOS
     {
         public CandidateStatus CandidateStatus { get; set; }
 
-        public IEnumerable<CandidateModel> Candidates { get; set; }
+        public IList<CandidateModel> Candidates { get; set; }
     }
 }

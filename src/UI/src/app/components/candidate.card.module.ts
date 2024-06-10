@@ -25,6 +25,9 @@ import { CommonModule, NgFor } from '@angular/common';
                 <div tuiTitle>Phone: 
                 <div tuiSubTitle>{{candidate.phoneNumber}}</div>
                 </div>
+                
+            </div>
+            <div tuiCell>
                 <div tuiTitle>Email: 
                     <div tuiSubTitle>{{candidate.email}}</div>
                 </div>
@@ -33,10 +36,13 @@ import { CommonModule, NgFor } from '@angular/common';
                 <div tuiTitle>Applied Date:
                 <div tuiSubTitle>{{candidate.createDate}}</div>
                 </div>
-                <div tuiTitle>Applied Position:
-                    <div> <tui-chip *ngFor="let job of candidate.jobModels" [style.border-radius.rem]="5">{{job.jobTitle}}</tui-chip></div>
-                </div>
+                
             </div>
+            <div tuiCell>
+                <div tuiTitle>Applied Position:
+                        <div> <tui-chip *ngFor="let job of candidate.jobModels" [style.border-radius.rem]="5">{{job.jobTitle}}</tui-chip></div>
+                    </div>
+                </div>
             
             <div tuiCell>
                 <div tuiTitle>Interviewer:

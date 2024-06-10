@@ -79,7 +79,7 @@ namespace Mercu.Kanban.Application.Queries.Candidates
                     CandidateStatus = n.CandidateStatus,
                     JobModels = _mapper.Map<IList<JobModel>>(n.JobModels),
                     InterviewerModels =  _mapper.Map<IList<InterviewerModel>>(n.InterviewerModels),
-                })
+                }).ToList()
             };
         }
     }

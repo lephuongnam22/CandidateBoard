@@ -27,4 +27,8 @@ export class CandidateBoardComponent {
   onAddCandidate($data: CandidateModel) {
     this.candidateContent.onAddNewCandidate($data);
   }
+
+  onSearchCandidate($data: any) {
+    this.candidateContent.onSearchCandidate($data);
+  }
 }

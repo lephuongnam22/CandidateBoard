@@ -2,6 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { environment } from '../../../environments/environment';
 import { Observable } from 'rxjs';
+import { KeyValue } from "@angular/common";
 
 @Injectable({
     providedIn: 'root',
@@ -32,5 +33,9 @@ export class CandidateService {
 
     updateCandidate(candidate:any): Observable<any> {
         return this.http.put<any>(`${this.apiUrl}`, candidate);
+    }
+
+    searchCandidate(searchRequest: any): Observable<any[]> {
+        return this.http.post<any[]>(`${this.apiUrl}/search`, searchRequest);
     }
 }

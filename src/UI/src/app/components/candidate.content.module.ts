@@ -1,6 +1,6 @@
 import { ChangeDetectionStrategy, Component, Input, OnInit, ChangeDetectorRef, Inject,Injector  } from '@angular/core';
 import { CandidateCardModule, CandidateModel } from './index';
-import { CommonModule, NgFor } from '@angular/common';
+import { CommonModule, NgFor, NgIf } from '@angular/common';
 import {TuiSurfaceModule, TuiCardModule, TuiTitleModule} from '@taiga-ui/experimental';
 import { DragDropModule,CdkDragDrop, moveItemInArray,
     transferArrayItem, 
@@ -10,7 +10,7 @@ import { DragDropModule,CdkDragDrop, moveItemInArray,
 import {CandidateService} from './services/candidate.service';
 import { delay, forkJoin, Observable } from 'rxjs';
 import { HttpClientModule } from '@angular/common/http';
-import { CandidateStautusModel } from './models';
+import { CandidateStautusModel, SearchRequest } from './models';
 import {TuiLoaderModule, TuiDialogService} from '@taiga-ui/core';
 import {Subject} from 'rxjs';
 
@@ -23,6 +23,7 @@ import {Subject} from 'rxjs';
     imports: [
         CandidateCardModule,
         NgFor,
+        NgIf,
         CommonModule,
         TuiSurfaceModule,
         TuiCardModule,
@@ -48,37 +49,19 @@ export class CandidateContentModule implements OnInit {
     }
 
     @Input() candidateStatus: Array<CandidateStautusModel>;
-    statuses: string[];
     readonly loading$ = new Subject<boolean>();
+    noData$ = new Subject<boolean>;
     
     ngOnInit() {
-      this.loading$.next(true);
-      this.candidateService.getcandidateStatus().subscribe(res => {
-        if(res) {
-          this.statuses = [];
-          this.candidateStatus =[];
-          let observableBatch :Observable<any>[] = [] ;
-          res.forEach(n => {
-            observableBatch.push(this.candidateService.getCandidateByStatus(n));
-            this.statuses.push(n);
-            let dropStatus = res.filter(x => x != n);
-            this.candidateStatus.push({status: n, candidates: [], dropStatus: dropStatus});
-          })
+      
+      let searchRequest: SearchRequest = {
+        candidateName: "",
+        interviewerIds:[],
+        appliedFromDate: "",
+        appliedToDate: ""
+      };
 
-          forkJoin(observableBatch).subscribe(res => {
-            if(res) {
-              let i = 0;
-
-              for(i;i< res.length;i++) {
-                this.candidateStatus[i].candidates = res[i].candidates;
-              }
-            }
-
-            this.changeDetection.detectChanges();
-          });
-        }
-      });
-
+      this.loadCandidate(searchRequest);
     }
 
     onAddNewCandidate(candidate: CandidateModel): void {
@@ -92,6 +75,10 @@ export class CandidateContentModule implements OnInit {
         applidedList.candidates = [...applidedList.candidates.concat(candidate)];
         this.changeDetection.detectChanges();
       }
+    }
+
+    onSearchCandidate(searchRequest: SearchRequest): void {
+      this.loadCandidate(searchRequest);
     }
 
     onEditCandidate(candidate: CandidateModel): void {
@@ -110,6 +97,26 @@ export class CandidateContentModule implements OnInit {
       });
     }
 
+    loadCandidate(searchRequest: SearchRequest) {
+      this.loading$.next(true);
+      this.candidateStatus = [];
+      this.candidateService.searchCandidate(searchRequest).subscribe(res => {
+        if(res) {
+
+          res.forEach(n => {
+            let dropStatus = res.map(n => n.candidateStatus).filter(x => x != n);
+            this.candidateStatus.push({status: n.candidateStatus, dropStatus: dropStatus, candidates: n.candidates});
+          });
+
+          this.noData$.next(false);
+          this.loading$.next(false);
+        }
+      },(error) => {
+        this.noData$.next(true);
+      }
+      );
+    }
+
     drop(event: CdkDragDrop<any[]>) {
         if (event.previousContainer === event.container) {
             // Reorder items within the same list
@@ -120,19 +127,27 @@ export class CandidateContentModule implements OnInit {
           let candidate = event.item.data;
           candidate.CandidateStatus = event.container.id;
 
+          transferArrayItem(
+            event.previousContainer.data,
+            event.container.data,
+            event.previousIndex,
+            event.currentIndex
+          );
+
           this.candidateService.updateCandidateStatus(candidate).pipe(delay(1000)).subscribe(res => {
 
             if(res) {
-              transferArrayItem(
-                event.previousContainer.data,
-                event.container.data,
-                event.previousIndex,
-                event.currentIndex
-              );
-
               this.loading$.next(false);
             }
           },(error) => {
+
+            transferArrayItem(
+              event.container.data,
+              event.previousContainer.data,
+              event.currentIndex,
+              event.previousIndex,
+            );
+
             this.dialogService.open(`
             <div>
               Cannot update Candiate Status. Please contact Administrator.
